@@ -1,6 +1,6 @@
 # Min Hero Calc
 
-An offline-first team, type-coverage and build calculator for **Min Hero: Tower of
+An vibe-coded offline-first team, type-coverage and build calculator for **Min Hero: Tower of
 Sages**. Vanilla TypeScript, no UI framework, no runtime dependencies — every
 number and every sprite ships inside the bundle.
 
@@ -19,6 +19,13 @@ number and every sprite ships inside the bundle.
   and live stat totals that mirror the game's gem formula.
 - **Game theme** — the slate-and-gold menu palette, BurbinCasual, sprites, move
   icons and skill-tree art, all precached for offline use.
+
+### TODO
+- **Ui overhaul** - improve graphics
+- **Customization** - use settings panel to create custom ui theme, 4 gems slots, etc.
+- **Quality of life features** - suggested searches, Levenshtein distance check, quick menus, favourites, progress tracker, etc. 
+- **Add Releases** - easy to install releases for Pc, MacOs, Linux and android.
+- **Host web domain** - Buy a domain and host the app for all browser-enabled devices
 
 ## Quick start
 
@@ -101,6 +108,8 @@ the service worker and reloads, so users pick the new version up on their next
 online load.
 
 ## Credits
+
+Coded with *Deepseek V4.1 Flash 1017* using VsCode copilot harness.
 
 *Min Hero: Tower of Sages* © ToyChestGames. Game data and art are used with
 permission; see `public/assets/ATTRIBUTION.md` and `src/packs/minhero/README.md`.
