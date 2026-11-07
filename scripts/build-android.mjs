@@ -16,7 +16,8 @@ import { fileURLToPath } from 'node:url';
 
 const rootDir = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const androidDir = join(rootDir, 'android');
-const gradle = process.platform === 'win32' ? 'gradlew.bat' : './gradlew';
+const gradle = process.platform === 'win32' ? 'gradlew.bat' : 'gradlew';
+const GRADLE_ARGS = ['assembleRelease', '--console=plain'];
 
 function fail(message) {
   console.error(`android: ${message}`);
@@ -49,14 +50,19 @@ if (!env.ANDROID_HOME && !env.ANDROID_SDK_ROOT) {
 
 console.log('android: running gradlew assembleRelease');
 // `shell: true` would concatenate arguments (and warns about it), so on Windows
-// the batch file is handed to cmd.exe explicitly.
-const command = process.platform === 'win32' ? (process.env.ComSpec ?? 'cmd.exe') : gradle;
-const build = spawnSync(
-  command,
-  ['/c', gradle, 'assembleRelease', '--console=plain'].slice(process.platform === 'win32' ? 0 : 1),
-  { cwd: androidDir, env, stdio: 'inherit' },
-);
+// the batch file is handed to cmd.exe. On POSIX the script is run through `sh`
+// because the executable bit does not survive a Windows checkout reliably.
+const spawnArgs =
+  process.platform === 'win32'
+    ? { command: process.env.ComSpec ?? 'cmd.exe', args: ['/c', gradle, ...GRADLE_ARGS] }
+    : { command: 'sh', args: [gradle, ...GRADLE_ARGS] };
+const build = spawnSync(spawnArgs.command, spawnArgs.args, {
+  cwd: androidDir,
+  env,
+  stdio: 'inherit',
+});
 
+if (build.error) fail(`could not start gradle: ${build.error.message}`);
 if (build.status !== 0) fail(`gradle exited with ${build.status}`);
 
 const version = JSON.parse(readFileSync(join(rootDir, 'package.json'), 'utf8')).version;
