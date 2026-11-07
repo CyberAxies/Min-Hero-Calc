@@ -10,6 +10,7 @@ import {
   decodeTeamShare,
   encodeBuildShare,
   encodeTeamShare,
+  shareBaseUrl,
 } from '../core/share';
 import { getState } from '../core/store';
 import type { BuildState, CoverageMode, GemLoadout } from '../core/types';
@@ -74,8 +75,7 @@ function typeChips(types: readonly string[], showLabel = false): HTMLElement {
 }
 
 function shareLink(path: string, key: string, token: string): string {
-  const base = location.href.split('#')[0];
-  return `${base}#/${path}?${key}=${encodeURIComponent(token)}`;
+  return `${shareBaseUrl()}#/${path}?${key}=${encodeURIComponent(token)}`;
 }
 
 function buildSummary(build: BuildState | null): string {

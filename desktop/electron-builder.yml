@@ -1,0 +1,46 @@
+# electron-builder config for the desktop pack.
+# `npm run prepare-app` copies the Vite build to desktop/dist first; the web
+# assets are shipped as an unpacked resource so the custom app:// handler can
+# read them straight from disk.
+appId: com.cyberaxies.minherocalc
+productName: Min Hero Calc
+copyright: Copyright © 2026 CyberAxies
+
+directories:
+  buildResources: build
+  output: release
+
+files:
+  - main.cjs
+  - package.json
+
+extraResources:
+  - from: dist
+    to: app-dist
+    filter:
+      - '**/*'
+
+asar: true
+compression: normal
+publish: null
+
+win:
+  icon: build/icon.png
+  target:
+    - target: nsis
+      arch: [x64]
+    - target: portable
+      arch: [x64]
+
+nsis:
+  artifactName: MinHeroCalc-Setup-${version}.${ext}
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Min Hero Calc
+  uninstallDisplayName: Min Hero Calc ${version}
+
+portable:
+  artifactName: MinHeroCalc-${version}-portable.${ext}

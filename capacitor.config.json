@@ -1,0 +1,12 @@
+{
+  "appId": "com.cyberaxies.minherocalc",
+  "appName": "Min Hero Calc",
+  "webDir": "dist",
+  "android": {
+    "backgroundColor": "#0b1220",
+    "allowMixedContent": false
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

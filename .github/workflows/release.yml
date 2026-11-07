@@ -1,0 +1,136 @@
+name: release
+
+# Builds the download packs and attaches them to the GitHub release:
+#   * MinHeroCalc-Setup-<version>.exe      Windows installer (Electron)
+#   * MinHeroCalc-<version>-portable.exe   Windows single-file app
+#   * MinHeroCalc-<version>.apk            Android app (Capacitor + WebView)
+#
+# Triggered by a version tag. `workflow_dispatch` builds the artifacts without
+# publishing, which is handy for testing the pipeline.
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  windows:
+    name: windows exe
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      # The desktop pack ships the same static build as the web app.
+      - run: npm run build
+
+      - name: install packaging tooling
+        working-directory: desktop
+        run: npm ci
+
+      - name: package
+        working-directory: desktop
+        run: npm run dist
+
+      # Proves the packaged app boots, renders and can read its bundled art
+      # before it is published.
+      - name: smoke test packaged app
+        working-directory: desktop
+        shell: pwsh
+        run: |
+          $env:MHC_SMOKE_OUT = Join-Path $PWD 'smoke.json'
+          $app = Start-Process -FilePath '.\release\win-unpacked\Min Hero Calc.exe' -ArgumentList '--smoke' -PassThru -Wait
+          if (-not (Test-Path $env:MHC_SMOKE_OUT)) { throw 'smoke test wrote no report' }
+          Get-Content $env:MHC_SMOKE_OUT
+          if ($app.ExitCode -ne 0) { throw "smoke test failed (exit $($app.ExitCode))" }
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows
+          if-no-files-found: error
+          path: |
+            desktop/release/MinHeroCalc-Setup-*.exe
+            desktop/release/MinHeroCalc-*-portable.exe
+
+  android:
+    name: android apk
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - uses: android-actions/setup-android@v3
+        with:
+          packages: 'platform-tools platforms;android-36 build-tools;36.0.0'
+
+      - run: npm ci
+
+      # Capacitor copies this build into android/app/src/main/assets/public, so
+      # the APK runs entirely offline.
+      - name: write signing config
+        env:
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE }}
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          if [ -z "$KEYSTORE_BASE64" ]; then
+            echo "::error::Missing ANDROID_KEYSTORE. Add the release keystore (base64) plus ANDROID_KEYSTORE_PASSWORD, ANDROID_KEY_ALIAS and ANDROID_KEY_PASSWORD as repository secrets."
+            exit 1
+          fi
+          echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/release.jks"
+          {
+            echo "storeFile=$RUNNER_TEMP/release.jks"
+            echo "storePassword=$KEYSTORE_PASSWORD"
+            echo "keyAlias=$KEY_ALIAS"
+            echo "keyPassword=$KEY_PASSWORD"
+          } > android/key.properties
+
+      - name: build apk
+        run: npm run android:apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: android
+          if-no-files-found: error
+          path: release/*.apk
+
+  publish:
+    name: publish release assets
+    needs: [windows, android]
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          merge-multiple: true
+
+      - name: upload to the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          ls -lh artifacts
+          gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1 ||
+            gh release create "$TAG" --repo "$GITHUB_REPOSITORY" \
+              --title "Min Hero Calc $TAG" --generate-notes
+          gh release upload "$TAG" artifacts/*.exe artifacts/*.apk \
+            --repo "$GITHUB_REPOSITORY" --clobber

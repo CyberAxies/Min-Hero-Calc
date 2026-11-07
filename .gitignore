@@ -3,6 +3,17 @@ dist
 dev-dist
 scripts/.cache
 minhero-towerofsages-main
+
+# packaging (desktop .exe / android .apk)
+release
+desktop/dist
+desktop/release
+desktop/build
+desktop/node_modules
+.buildcache
+android/.gradle
+android/app/build
+android/local.properties
 *.local
 .DS_Store
 Thumbs.db

@@ -22,6 +22,19 @@ interface SharedBuildPayload extends SharedBuild {
   v: 1;
 }
 
+/**
+ * Base URL for shareable links. The packaged shells serve the app from
+ * `app://minhero/` (desktop) or `https://localhost/` (Android), which nobody
+ * else can open, so `VITE_PUBLIC_ORIGIN` pins the hosted URL at build time. The
+ * browser build falls back to its own origin.
+ */
+export function shareBaseUrl(): string {
+  const configured = String(import.meta.env.VITE_PUBLIC_ORIGIN ?? '').trim();
+  if (configured) return configured.endsWith('/') ? configured : `${configured}/`;
+  const [base = ''] = location.href.split('#');
+  return base;
+}
+
 function toBase64Url(text: string): string {
   const bytes = new TextEncoder().encode(text);
   let binary = '';

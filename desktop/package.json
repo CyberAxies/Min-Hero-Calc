@@ -1,0 +1,20 @@
+{
+  "name": "min-hero-calc-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Desktop build of Min Hero Calc",
+  "author": "CyberAxies",
+  "license": "GPL-3.0-or-later",
+  "main": "main.cjs",
+  "scripts": {
+    "prepare-app": "node scripts/prepare-app.mjs",
+    "electron:setup": "node node_modules/electron/install.js",
+    "start": "npm run prepare-app && electron .",
+    "smoke": "npm run prepare-app && electron . --smoke",
+    "dist": "npm run prepare-app && electron-builder --win --publish never"
+  },
+  "devDependencies": {
+    "electron": "^45.2.3",
+    "electron-builder": "^26.18.0"
+  }
+}

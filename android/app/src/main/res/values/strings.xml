@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Min Hero Calc</string>
+    <string name="title_activity_main">Min Hero Calc</string>
+    <string name="package_name">com.cyberaxies.minherocalc</string>
+    <string name="custom_url_scheme">com.cyberaxies.minherocalc</string>
+</resources>
