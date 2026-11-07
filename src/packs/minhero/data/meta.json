@@ -1,0 +1,44 @@
+{
+  "source": {
+    "path": "minhero-towerofsages-main/Source Files/scripts",
+    "hash": "6d0e3e7abb8a0dc7191881eb13a3a7d556cea20fc02de4364c20fd8b74d77ba4",
+    "attribution": "Min Hero: Tower of Sages © ToyChestGames. Source used with permission."
+  },
+  "rules": {
+    "teamSize": 5,
+    "maxLevel": 60,
+    "skillPointsAtMax": 17,
+    "treeColumns": 3,
+    "treeRows": 4,
+    "rowPointRequirement": 3,
+    "secondaryTreeUnlockAt": 11,
+    "stabModifier": 1.1,
+    "weakModifier": 1.5,
+    "resistModifier": 0.66666666667
+  },
+  "counts": {
+    "types": 14,
+    "minions": 102,
+    "families": 54,
+    "trees": 159,
+    "moves": 888,
+    "declaredMoveSlots": 893,
+    "unknownMoveIds": [
+      135,
+      136,
+      137,
+      138,
+      139
+    ],
+    "ignoredTreeIds": [
+      "IceTree_Rock",
+      "GetTestTalentTree"
+    ],
+    "obtainableMoves": 785
+  },
+  "warnings": [
+    "Family grouping by tree refs produced 53 groups; used source function prefix instead.",
+    "Ignored unreferenced tree definitions: IceTree_Rock, GetTestTalentTree",
+    "Source declares 893 move slots; ids 135, 136, 137, 138, 139 are undocumented/glitched and have no move records."
+  ]
+}

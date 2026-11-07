@@ -1,0 +1,428 @@
+[
+  {
+    "id": "amliflier",
+    "name": "Amliflier",
+    "members": [
+      "amliflier"
+    ]
+  },
+  {
+    "id": "arcticowl",
+    "name": "Arcticowl",
+    "members": [
+      "archick",
+      "arcticowl"
+    ]
+  },
+  {
+    "id": "ant-8r",
+    "name": "Ant-8r",
+    "members": [
+      "bab-8r",
+      "ant-8r"
+    ]
+  },
+  {
+    "id": "banesha",
+    "name": "Banesha",
+    "members": [
+      "banesha"
+    ]
+  },
+  {
+    "id": "eaglin",
+    "name": "Eaglin",
+    "members": [
+      "beakif",
+      "eaglin"
+    ]
+  },
+  {
+    "id": "betehulk",
+    "name": "Betehulk",
+    "members": [
+      "betehorn",
+      "betestone",
+      "betehulk"
+    ]
+  },
+  {
+    "id": "biomez",
+    "name": "Biomez",
+    "members": [
+      "biomez"
+    ]
+  },
+  {
+    "id": "cerberus",
+    "name": "Cerberus",
+    "members": [
+      "cerberus"
+    ]
+  },
+  {
+    "id": "chameleon",
+    "name": "Chameleon",
+    "members": [
+      "chameleon"
+    ]
+  },
+  {
+    "id": "armordilla",
+    "name": "Armordilla",
+    "members": [
+      "chidilla",
+      "armordilla"
+    ]
+  },
+  {
+    "id": "cactilla",
+    "name": "Cactilla",
+    "members": [
+      "chimilla",
+      "cactilla"
+    ]
+  },
+  {
+    "id": "falcona",
+    "name": "Falcona",
+    "members": [
+      "chirpla",
+      "airmony",
+      "falcona"
+    ]
+  },
+  {
+    "id": "blazebar",
+    "name": "Blazebar",
+    "members": [
+      "cubble",
+      "blazebar"
+    ]
+  },
+  {
+    "id": "destrabell",
+    "name": "Destrabell",
+    "members": [
+      "destrabell"
+    ]
+  },
+  {
+    "id": "houndler",
+    "name": "Houndler",
+    "members": [
+      "dogler",
+      "houndler"
+    ]
+  },
+  {
+    "id": "domisteam",
+    "name": "Domisteam",
+    "members": [
+      "domisteam"
+    ]
+  },
+  {
+    "id": "dracolt",
+    "name": "Dracolt",
+    "members": [
+      "dracolt"
+    ]
+  },
+  {
+    "id": "eeliforce",
+    "name": "Eeliforce",
+    "members": [
+      "eeliforce"
+    ]
+  },
+  {
+    "id": "krobone",
+    "name": "Krobone",
+    "members": [
+      "egcrow",
+      "skulcrow",
+      "krobone"
+    ]
+  },
+  {
+    "id": "lightina",
+    "name": "Lightina",
+    "members": [
+      "elecat",
+      "cheecha",
+      "lightina"
+    ]
+  },
+  {
+    "id": "firox",
+    "name": "Firox",
+    "members": [
+      "firox"
+    ]
+  },
+  {
+    "id": "foramare",
+    "name": "Foramare",
+    "members": [
+      "foramare"
+    ]
+  },
+  {
+    "id": "frostag",
+    "name": "Frostag",
+    "members": [
+      "frostag"
+    ]
+  },
+  {
+    "id": "harwing",
+    "name": "Harwing",
+    "members": [
+      "harwing"
+    ]
+  },
+  {
+    "id": "healabell",
+    "name": "Healabell",
+    "members": [
+      "healabell"
+    ]
+  },
+  {
+    "id": "holymantis",
+    "name": "Holymantis",
+    "members": [
+      "holymantis"
+    ]
+  },
+  {
+    "id": "hydravolt",
+    "name": "Hydravolt",
+    "members": [
+      "jellyjolt",
+      "hydravolt"
+    ]
+  },
+  {
+    "id": "kel-tuzar",
+    "name": "Kel'Tuzar",
+    "members": [
+      "kel-ba",
+      "kel-ten",
+      "kel-tuzar"
+    ]
+  },
+  {
+    "id": "pumafiend",
+    "name": "Pumafiend",
+    "members": [
+      "kittyvile",
+      "pumafiend"
+    ]
+  },
+  {
+    "id": "leerpo",
+    "name": "Leerpo",
+    "members": [
+      "leeru",
+      "duleer",
+      "leerpo"
+    ]
+  },
+  {
+    "id": "mayataz",
+    "name": "Mayataz",
+    "members": [
+      "mayataz"
+    ]
+  },
+  {
+    "id": "megalatron",
+    "name": "Megalatron",
+    "members": [
+      "megalatron"
+    ]
+  },
+  {
+    "id": "octatree",
+    "name": "Octatree",
+    "members": [
+      "octaleaf",
+      "octagrass",
+      "octatree"
+    ]
+  },
+  {
+    "id": "scaredoom",
+    "name": "Scaredoom",
+    "members": [
+      "pumcin",
+      "scaredrow",
+      "scaredoom"
+    ]
+  },
+  {
+    "id": "rexathor",
+    "name": "Rexathor",
+    "members": [
+      "rexabee",
+      "tenasauras",
+      "rexathor"
+    ]
+  },
+  {
+    "id": "saintifi",
+    "name": "Saintifi",
+    "members": [
+      "saintifi"
+    ]
+  },
+  {
+    "id": "quickapent",
+    "name": "Quickapent",
+    "members": [
+      "sapent",
+      "cobrapent",
+      "quickapent"
+    ]
+  },
+  {
+    "id": "sealast",
+    "name": "Sealast",
+    "members": [
+      "sealo",
+      "sealast"
+    ]
+  },
+  {
+    "id": "seiryu",
+    "name": "Seiryu",
+    "members": [
+      "seiryu"
+    ]
+  },
+  {
+    "id": "empawrath",
+    "name": "Empawrath",
+    "members": [
+      "shoktail",
+      "emperun",
+      "empawrath"
+    ]
+  },
+  {
+    "id": "eldrest",
+    "name": "Eldrest",
+    "members": [
+      "shrumpy",
+      "eldrest"
+    ]
+  },
+  {
+    "id": "destroslime",
+    "name": "Destroslime",
+    "members": [
+      "slime",
+      "gigaslime",
+      "destroslime"
+    ]
+  },
+  {
+    "id": "sobek",
+    "name": "Sobek",
+    "members": [
+      "sobek"
+    ]
+  },
+  {
+    "id": "eruptoad",
+    "name": "Eruptoad",
+    "members": [
+      "tadcoal",
+      "volcanoad",
+      "eruptoad"
+    ]
+  },
+  {
+    "id": "kleptoon",
+    "name": "Kleptoon",
+    "members": [
+      "tatail",
+      "kleptoon"
+    ]
+  },
+  {
+    "id": "tigertan",
+    "name": "Tigertan",
+    "members": [
+      "ticub",
+      "tigertan"
+    ]
+  },
+  {
+    "id": "titoro",
+    "name": "Titoro",
+    "members": [
+      "titoro"
+    ]
+  },
+  {
+    "id": "flamator",
+    "name": "Flamator",
+    "members": [
+      "toregg",
+      "smouldor",
+      "flamator"
+    ]
+  },
+  {
+    "id": "tortastone",
+    "name": "Tortastone",
+    "members": [
+      "tortastone"
+    ]
+  },
+  {
+    "id": "sumole",
+    "name": "Sumole",
+    "members": [
+      "tremole",
+      "seizemole",
+      "sumole"
+    ]
+  },
+  {
+    "id": "hudu",
+    "name": "Hudu",
+    "members": [
+      "vudu",
+      "hudu"
+    ]
+  },
+  {
+    "id": "wafin",
+    "name": "Wafin",
+    "members": [
+      "wafin"
+    ]
+  },
+  {
+    "id": "riffra",
+    "name": "Riffra",
+    "members": [
+      "wormif",
+      "rottar",
+      "riffra"
+    ]
+  },
+  {
+    "id": "tazorback",
+    "name": "Tazorback",
+    "members": [
+      "zapig",
+      "electroboar",
+      "tazorback"
+    ]
+  }
+]

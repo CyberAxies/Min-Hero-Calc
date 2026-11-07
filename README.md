@@ -1,0 +1,106 @@
+# Min Hero Calc
+
+An offline-first team, type-coverage and build calculator for **Min Hero: Tower of
+Sages**. Vanilla TypeScript, no UI framework, no runtime dependencies — every
+number and every sprite ships inside the bundle.
+
+## Features
+
+- **Team builder** — five slots, optional enemy team, saved teams and share links.
+- **Type coverage** — exact rational type maths (×1.5 weak, ×2/3 resist, ×1.1
+  STAB, dual types multiply), offense, defense and direct matchup panels.
+- **Skill planner** — 17 points at level 60, one tree on screen at a time with
+  arrow/dot navigation, row and dependency gates, and hover/tap move descriptions.
+- **Move browser** — all 785 obtainable moves with the game's own tooltip text,
+  their tier line and every minion that learns them.
+- **Filters** — Showdown-style queries (`type:fire`, `!type:water`, `attack>=200`,
+  `learns:flurry`) plus type chips, numeric minimums and sorting on both browsers.
+- **Gems** — real socket counts (locked sockets shown disabled), tier/quality rolls
+  and live stat totals that mirror the game's gem formula.
+- **Game theme** — the slate-and-gold menu palette, BurbinCasual, sprites, move
+  icons and skill-tree art, all precached for offline use.
+
+## Quick start
+
+```powershell
+npm.cmd install          # PowerShell blocks npm.ps1; use npm.cmd
+npm.cmd run dev          # http://localhost:5173
+npm.cmd run build        # typecheck + production build (regenerates PWA icons)
+npm.cmd run preview      # serve dist/
+npm.cmd run verify       # typecheck + tests
+```
+
+Requires Node 20.19+ or 22.12+ (developed on Node 26).
+
+## Data and art pipeline
+
+The factual data and the artwork are generated from the local, gitignored
+decompiled game, then committed so builds work without it:
+
+```powershell
+npm.cmd run data:import    # scripts/import-game-data.mjs  -> src/packs/minhero/data/*.json
+npm.cmd run data:check     # tests/data.test.ts
+npm.cmd run assets:import  # scripts/import-assets.mjs     -> public/assets/**, src/assets/fonts
+npm.cmd run assets:check   # manifest vs public/assets + tests/assets.test.ts
+```
+
+- Generated data lives in `src/packs/minhero/data/` (never hand-edit).
+- Art lives in `public/assets/` (relative `./assets/...` paths, so the app works
+  from a subpath, `file://` and the installed PWA).
+- Regenerate in this order: `data:import` → `assets:import` → `data:check` →
+  `assets:check`.
+
+## Project layout
+
+| Path | What lives there |
+| --- | --- |
+| `src/core/` | Game-independent engine: store, builds, gems, filters, sharing, exact rational type maths. |
+| `src/packs/minhero/` | The active game pack: rules, typed data accessors, generated JSON, art manifest. |
+| `src/ui/` | Hash-routed views (`pages.ts`, `moveSearch.ts`) and small DOM components. |
+| `src/styles/` | Design tokens + BurbinCasual `@font-face`; `src/style.css` holds the component CSS. |
+| `scripts/` | Dev-time importers/checkers. They never run at runtime. |
+| `tests/` | Vitest suites for data, assets, filters, gems, builds, coverage, share, indexes. |
+
+## Offline / PWA
+
+`vite-plugin-pwa` precaches the app shell, the data pack, all art and the font, so
+the app works fully offline after the first visit. Hash routing (`#/moves`,
+`#/minion/seiryu`) keeps deep links working from any static host, including a
+GitHub Pages subpath and the home-screen install.
+
+## Deploying
+
+Static hosting only — the build is a folder of files and never calls an API.
+Cloudflare Pages is the recommended host because it rebuilds on push and gives
+every pull request a preview URL:
+
+| Cloudflare Pages setting | Value |
+| --- | --- |
+| Production branch | `main` |
+| Build command | `npm run build` |
+| Output directory | `dist` |
+| Environment variable | `NODE_VERSION = 22` (or nothing — `.nvmrc` pins 22) |
+
+`npm run build` is cross-platform on purpose (the icon generator is plain Node),
+so the same command works on Windows, in GitHub Actions and on Cloudflare's Linux
+builders. `.github/workflows/ci.yml` runs `verify` + `build` on every push and PR;
+the deploy itself is handled by the host, not by Actions.
+
+No SPA rewrite or catch-all route is needed: hash routing means the server only
+ever serves `index.html` plus hashed assets, and `base: './'` works at a domain
+root, a subpath and `file://` alike.
+
+> **Pick the permanent URL before you announce the app.** Saved teams, builds and
+gem loadouts live in `localStorage`, and the installed PWA's identity comes from
+the manifest's scope/start URL. Moving to a different origin later means every
+user starts with an empty library and a second app icon.
+
+Release flow: branch → PR (preview deploy) → merge to `main` (production) →
+`npm version minor && git push --follow-tags`. `registerType: 'autoUpdate'` swaps
+the service worker and reloads, so users pick the new version up on their next
+online load.
+
+## Credits
+
+*Min Hero: Tower of Sages* © ToyChestGames. Game data and art are used with
+permission; see `public/assets/ATTRIBUTION.md` and `src/packs/minhero/README.md`.

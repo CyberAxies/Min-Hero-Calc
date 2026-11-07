@@ -1,0 +1,79 @@
+/**
+ * Design tokens for Min Hero Calc.
+ *
+ * Every colour, radius, shadow and typeface used by the app resolves through a
+ * custom property declared here. Nothing below `:root` hard-codes a colour.
+ *
+ * Theme hooks (for the 1.1 UI settings):
+ * - `[data-theme='…']` on <html> overrides the palette; `ui/theme.ts` owns the
+ *   registry and applies it.
+ * - `--texture-page` / `--texture-panel` are injected at runtime from the art
+ *   manifest, so headless builds and future texture packs keep working.
+ */
+
+:root {
+  color-scheme: dark;
+
+  /* Surfaces: deep navy page, slate-blue panels (the game's menu palette). */
+  --bg: #0b1220;
+  --bg-gradient: radial-gradient(1100px 620px at 50% -12%, #1b2b45 0%, #0b1220 62%);
+  --bg-elev: #172133;
+  --bg-elev-2: #1f2b41;
+  --surface-3: #27354d;
+  --surface-4: #33445f;
+  --border: #2f4059;
+  --border-strong: #55708f;
+  --overlay: rgba(9, 15, 26, 0.92);
+
+  /* Text */
+  --text: #eef3fb;
+  --text-dim: #9fb0c9;
+  --text-muted: #7e90aa;
+
+  /* Accents: steel blue for actions, sage gold for selection and rewards. */
+  --accent: #6d9bff;
+  --accent-strong: #96b8ff;
+  --accent-soft: rgba(109, 155, 255, 0.16);
+  --accent-contrast: #08101f;
+  --gold: #f2c45f;
+  --gold-soft: rgba(242, 196, 95, 0.16);
+  --done: #5fd39b;
+  --next: #f2c45f;
+  --danger: #ff7e8b;
+  --danger-soft: rgba(255, 126, 139, 0.15);
+
+  /* Elevation and bevels */
+  --shadow: 0 22px 50px rgba(3, 8, 18, 0.55);
+  --shadow-soft: 0 8px 22px rgba(3, 8, 18, 0.35);
+  --bevel: inset 0 1px 0 rgba(255, 255, 255, 0.07);
+  --bevel-strong: inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  --inset: inset 0 2px 6px rgba(3, 8, 18, 0.45);
+
+  /* Shape and rhythm */
+  --radius: 14px;
+  --radius-sm: 9px;
+  --gutter: 16px;
+
+  /* Type */
+  --font-ui: 'BurbinCasual', 'Trebuchet MS', var(--font-body);
+  --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Mono', Consolas, monospace;
+
+  /* Art hooks, filled in by ui/theme.ts from data/assets.json. */
+  --texture-page: none;
+  --texture-panel: none;
+  --texture-node: none;
+  --texture-spec: none;
+  --texture-points: none;
+  --texture-reset: none;
+
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* 1.1 settings will switch palettes by setting data-theme on <html>. */
+:root[data-theme='sage'] {
+  /* Default palette; kept as an explicit selector so overrides stay additive. */
+}

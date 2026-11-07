@@ -1,0 +1,27 @@
+{
+  "name": "min-hero-calc",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "npm run icons",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "data:import": "node scripts/import-game-data.mjs",
+    "data:check": "vitest run tests/data.test.ts",
+    "assets:import": "node scripts/import-assets.mjs",
+    "assets:check": "node scripts/check-assets.mjs && vitest run tests/assets.test.ts",
+    "icons": "node scripts/make-icons.mjs",
+    "verify": "npm run typecheck && npm run test"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.0.5"
+  }
+}

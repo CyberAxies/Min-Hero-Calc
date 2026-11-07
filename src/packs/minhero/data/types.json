@@ -1,0 +1,100 @@
+[
+  {
+    "id": "normal",
+    "name": "Normal",
+    "color": "#D5C29E",
+    "icon": "./icons/IconTypeNormal.png",
+    "sourceName": "TYPE_NORMAL"
+  },
+  {
+    "id": "flying",
+    "name": "Flying",
+    "color": "#C2E5FB",
+    "icon": "./icons/IconTypeFlying.png",
+    "sourceName": "TYPE_FLYING"
+  },
+  {
+    "id": "plant",
+    "name": "Plant",
+    "color": "#93C91F",
+    "icon": "./icons/IconTypePlant.png",
+    "sourceName": "TYPE_PLANT"
+  },
+  {
+    "id": "water",
+    "name": "Water",
+    "color": "#2E63CC",
+    "icon": "./icons/IconTypeWater.png",
+    "sourceName": "TYPE_WATER"
+  },
+  {
+    "id": "earth",
+    "name": "Earth",
+    "color": "#A3661F",
+    "icon": "./icons/IconTypeEarth.png",
+    "sourceName": "TYPE_EARTH"
+  },
+  {
+    "id": "ice",
+    "name": "Ice",
+    "color": "#69FFF5",
+    "icon": "./icons/IconTypeIce.png",
+    "sourceName": "TYPE_ICE"
+  },
+  {
+    "id": "fire",
+    "name": "Fire",
+    "color": "#D81E0B",
+    "icon": "./icons/IconTypeFire.png",
+    "sourceName": "TYPE_FIRE"
+  },
+  {
+    "id": "electric",
+    "name": "Electric",
+    "color": "#E5E000",
+    "icon": "./icons/IconTypeEnergy.png",
+    "sourceName": "TYPE_ENERGY"
+  },
+  {
+    "id": "robot",
+    "name": "Robot",
+    "color": "#647088",
+    "icon": "./icons/IconTypeRobot.png",
+    "sourceName": "TYPE_ROBOT"
+  },
+  {
+    "id": "dino",
+    "name": "Dino",
+    "color": "#F06D0D",
+    "icon": "./icons/IconTypeDino.png",
+    "sourceName": "TYPE_DINO"
+  },
+  {
+    "id": "undead",
+    "name": "Undead",
+    "color": "#896392",
+    "icon": "./icons/IconTypeUndead.png",
+    "sourceName": "TYPE_UNDEAD"
+  },
+  {
+    "id": "demonic",
+    "name": "Demonic",
+    "color": "#6A030F",
+    "icon": "./icons/IconTypeDemonic.png",
+    "sourceName": "TYPE_DEMONIC"
+  },
+  {
+    "id": "holy",
+    "name": "Holy",
+    "color": "#DFD8C1",
+    "icon": "./icons/IconTypeHoly.png",
+    "sourceName": "TYPE_HOLY"
+  },
+  {
+    "id": "titan",
+    "name": "Titan",
+    "color": "#530FB0",
+    "icon": "./icons/IconTypeTitan.png",
+    "sourceName": "TYPE_TITAN"
+  }
+]

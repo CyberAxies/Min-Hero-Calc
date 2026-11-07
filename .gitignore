@@ -1,0 +1,8 @@
+node_modules
+dist
+dev-dist
+scripts/.cache
+minhero-towerofsages-main
+*.local
+.DS_Store
+Thumbs.db

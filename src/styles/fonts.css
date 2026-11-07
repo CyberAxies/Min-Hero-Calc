@@ -1,0 +1,13 @@
+/*
+ * BurbinCasual: the typeface used throughout Min Hero's menus.
+ * Shipped from the game's font folder with permission; Vite hashes and rebases
+ * the URL so it keeps working under `base: './'`.
+ */
+
+@font-face {
+  font-family: 'BurbinCasual';
+  src: url('../assets/fonts/burbin-casual.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

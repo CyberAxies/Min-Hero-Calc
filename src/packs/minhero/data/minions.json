@@ -1,0 +1,4797 @@
+[
+  {
+    "id": "ticub",
+    "dexId": 0,
+    "dexNumber": 1,
+    "name": "Ticub",
+    "sprite": "normalTiger1",
+    "sourceFunction": "Tiger_stage1",
+    "stage": 1,
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "health": 40,
+      "energy": 45,
+      "attack": 40,
+      "healing": 35,
+      "speed": 50
+    },
+    "maxStats": {
+      "health": 245,
+      "energy": 210,
+      "attack": 125,
+      "healing": 110,
+      "speed": 155
+    },
+    "gems": {
+      "total": 1,
+      "locked": 1
+    },
+    "evolvesAt": 17,
+    "startingMoves": [
+      "claw_t1",
+      "roar_t1"
+    ],
+    "specializationMoves": [
+      "reckless_dash_t1",
+      "chosen_earth_t2",
+      "poison_tooth_t1"
+    ],
+    "treeIds": [
+      "Tiger_Speed",
+      "Tiger_Gaurd",
+      "Tiger_Normal"
+    ],
+    "familyId": "tigertan",
+    "familyName": "Tigertan"
+  },
+  {
+    "id": "tigertan",
+    "dexId": 1,
+    "dexNumber": 2,
+    "name": "Tigertan",
+    "sprite": "normalTiger2",
+    "sourceFunction": "Tiger_stage2",
+    "stage": 2,
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "health": 60,
+      "energy": 65,
+      "attack": 60,
+      "healing": 45,
+      "speed": 70
+    },
+    "maxStats": {
+      "health": 365,
+      "energy": 300,
+      "attack": 185,
+      "healing": 140,
+      "speed": 215
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "claw_t1",
+      "roar_t1"
+    ],
+    "specializationMoves": [
+      "reckless_dash_t1",
+      "chosen_earth_t2",
+      "poison_tooth_t1"
+    ],
+    "treeIds": [
+      "Tiger_Speed",
+      "Tiger_Gaurd",
+      "Tiger_Normal"
+    ],
+    "familyId": "tigertan",
+    "familyName": "Tigertan"
+  },
+  {
+    "id": "zapig",
+    "dexId": 2,
+    "dexNumber": 3,
+    "name": "Zapig",
+    "sprite": "energyBoar1",
+    "sourceFunction": "FirePig_stage1",
+    "stage": 1,
+    "types": [
+      "fire",
+      "electric"
+    ],
+    "baseStats": {
+      "health": 30,
+      "energy": 45,
+      "attack": 40,
+      "healing": 10,
+      "speed": 40
+    },
+    "maxStats": {
+      "health": 185,
+      "energy": 210,
+      "attack": 125,
+      "healing": 35,
+      "speed": 125
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 10,
+    "startingMoves": [
+      "claw_t1",
+      "burn_t1"
+    ],
+    "specializationMoves": [
+      "fire_ram_t1",
+      "static_pummel_t1",
+      "tackle_t1"
+    ],
+    "treeIds": [
+      "FirePig_fire",
+      "FirePig_electric",
+      "FirePig_normal"
+    ],
+    "familyId": "tazorback",
+    "familyName": "Tazorback"
+  },
+  {
+    "id": "electroboar",
+    "dexId": 3,
+    "dexNumber": 4,
+    "name": "Electroboar",
+    "sprite": "energyBoar2",
+    "sourceFunction": "FirePig_stage2",
+    "stage": 2,
+    "types": [
+      "fire",
+      "electric"
+    ],
+    "baseStats": {
+      "health": 35,
+      "energy": 55,
+      "attack": 50,
+      "healing": 15,
+      "speed": 50
+    },
+    "maxStats": {
+      "health": 215,
+      "energy": 255,
+      "attack": 155,
+      "healing": 50,
+      "speed": 155
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 29,
+    "startingMoves": [
+      "claw_t1",
+      "burn_t1"
+    ],
+    "specializationMoves": [
+      "fire_ram_t1",
+      "static_pummel_t1",
+      "tackle_t1"
+    ],
+    "treeIds": [
+      "FirePig_fire",
+      "FirePig_electric",
+      "FirePig_normal"
+    ],
+    "familyId": "tazorback",
+    "familyName": "Tazorback"
+  },
+  {
+    "id": "tazorback",
+    "dexId": 4,
+    "dexNumber": 5,
+    "name": "Tazorback",
+    "sprite": "energyBoar3",
+    "sourceFunction": "FirePig_stage3",
+    "stage": 3,
+    "types": [
+      "fire",
+      "electric"
+    ],
+    "baseStats": {
+      "health": 40,
+      "energy": 65,
+      "attack": 60,
+      "healing": 20,
+      "speed": 60
+    },
+    "maxStats": {
+      "health": 245,
+      "energy": 300,
+      "attack": 185,
+      "healing": 65,
+      "speed": 185
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "claw_t1",
+      "burn_t1"
+    ],
+    "specializationMoves": [
+      "fire_ram_t1",
+      "static_pummel_t1",
+      "tackle_t1"
+    ],
+    "treeIds": [
+      "FirePig_fire",
+      "FirePig_electric",
+      "FirePig_normal"
+    ],
+    "familyId": "tazorback",
+    "familyName": "Tazorback"
+  },
+  {
+    "id": "sapent",
+    "dexId": 5,
+    "dexNumber": 6,
+    "name": "Sapent",
+    "sprite": "plantViper1",
+    "sourceFunction": "GrassSnake_stage1",
+    "stage": 1,
+    "types": [
+      "plant"
+    ],
+    "baseStats": {
+      "health": 25,
+      "energy": 25,
+      "attack": 35,
+      "healing": 20,
+      "speed": 35
+    },
+    "maxStats": {
+      "health": 155,
+      "energy": 120,
+      "attack": 110,
+      "healing": 65,
+      "speed": 110
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 14,
+    "startingMoves": [
+      "poison_tooth_t1",
+      "razor_vine_t1"
+    ],
+    "specializationMoves": [
+      "grassblade_t1",
+      "slow_t1",
+      "tackle_t2"
+    ],
+    "treeIds": [
+      "GrassSnake_Grass",
+      "GrassSnake_Debuffs",
+      "GrassSnake_Normal"
+    ],
+    "familyId": "quickapent",
+    "familyName": "Quickapent"
+  },
+  {
+    "id": "cobrapent",
+    "dexId": 6,
+    "dexNumber": 7,
+    "name": "Cobrapent",
+    "sprite": "plantViper2",
+    "sourceFunction": "GrassSnake_stage2",
+    "stage": 2,
+    "types": [
+      "plant"
+    ],
+    "baseStats": {
+      "health": 40,
+      "energy": 35,
+      "attack": 40,
+      "healing": 30,
+      "speed": 45
+    },
+    "maxStats": {
+      "health": 245,
+      "energy": 165,
+      "attack": 125,
+      "healing": 95,
+      "speed": 140
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 32,
+    "startingMoves": [
+      "poison_tooth_t1",
+      "razor_vine_t1"
+    ],
+    "specializationMoves": [
+      "grassblade_t1",
+      "slow_t1",
+      "tackle_t2"
+    ],
+    "treeIds": [
+      "GrassSnake_Grass",
+      "GrassSnake_Debuffs",
+      "GrassSnake_Normal"
+    ],
+    "familyId": "quickapent",
+    "familyName": "Quickapent"
+  },
+  {
+    "id": "quickapent",
+    "dexId": 7,
+    "dexNumber": 8,
+    "name": "Quickapent",
+    "sprite": "plantViper3",
+    "sourceFunction": "GrassSnake_stage3",
+    "stage": 3,
+    "types": [
+      "plant"
+    ],
+    "baseStats": {
+      "health": 65,
+      "energy": 50,
+      "attack": 55,
+      "healing": 40,
+      "speed": 60
+    },
+    "maxStats": {
+      "health": 395,
+      "energy": 232,
+      "attack": 170,
+      "healing": 125,
+      "speed": 185
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "poison_tooth_t1",
+      "razor_vine_t1"
+    ],
+    "specializationMoves": [
+      "grassblade_t1",
+      "slow_t1",
+      "tackle_t2"
+    ],
+    "treeIds": [
+      "GrassSnake_Grass",
+      "GrassSnake_Debuffs",
+      "GrassSnake_Normal"
+    ],
+    "familyId": "quickapent",
+    "familyName": "Quickapent"
+  },
+  {
+    "id": "tremole",
+    "dexId": 8,
+    "dexNumber": 9,
+    "name": "Tremole",
+    "sprite": "earthMole1",
+    "sourceFunction": "GroundMole_stage1",
+    "stage": 1,
+    "types": [
+      "earth"
+    ],
+    "baseStats": {
+      "health": 45,
+      "energy": 25,
+      "attack": 25,
+      "healing": 10,
+      "speed": 10
+    },
+    "maxStats": {
+      "health": 275,
+      "energy": 120,
+      "attack": 80,
+      "healing": 35,
+      "speed": 35
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 19,
+    "startingMoves": [
+      "claw_t1",
+      "rock_throw_t1"
+    ],
+    "specializationMoves": [
+      "stone_fall_t1",
+      "perseverance_t1",
+      "reflect_damage_t2"
+    ],
+    "treeIds": [
+      "GroundMole_Damage",
+      "GroundMole_Gaurd",
+      "GroundMole_Normal"
+    ],
+    "familyId": "sumole",
+    "familyName": "Sumole"
+  },
+  {
+    "id": "seizemole",
+    "dexId": 9,
+    "dexNumber": 10,
+    "name": "Seizemole",
+    "sprite": "earthMole2",
+    "sourceFunction": "GroundMole_stage2",
+    "stage": 2,
+    "types": [
+      "earth"
+    ],
+    "baseStats": {
+      "health": 75,
+      "energy": 30,
+      "attack": 30,
+      "healing": 12,
+      "speed": 15
+    },
+    "maxStats": {
+      "health": 455,
+      "energy": 142,
+      "attack": 95,
+      "healing": 41,
+      "speed": 50
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 32,
+    "startingMoves": [
+      "claw_t1",
+      "rock_throw_t1"
+    ],
+    "specializationMoves": [
+      "stone_fall_t1",
+      "perseverance_t1",
+      "reflect_damage_t2"
+    ],
+    "treeIds": [
+      "GroundMole_Damage",
+      "GroundMole_Gaurd",
+      "GroundMole_Normal"
+    ],
+    "familyId": "sumole",
+    "familyName": "Sumole"
+  },
+  {
+    "id": "sumole",
+    "dexId": 10,
+    "dexNumber": 11,
+    "name": "Sumole",
+    "sprite": "earthMole3",
+    "sourceFunction": "GroundMole_stage3",
+    "stage": 3,
+    "types": [
+      "earth"
+    ],
+    "baseStats": {
+      "health": 90,
+      "energy": 35,
+      "attack": 40,
+      "healing": 15,
+      "speed": 20
+    },
+    "maxStats": {
+      "health": 545,
+      "energy": 165,
+      "attack": 125,
+      "healing": 50,
+      "speed": 65
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "claw_t1",
+      "rock_throw_t1"
+    ],
+    "specializationMoves": [
+      "stone_fall_t1",
+      "perseverance_t1",
+      "reflect_damage_t2"
+    ],
+    "treeIds": [
+      "GroundMole_Damage",
+      "GroundMole_Gaurd",
+      "GroundMole_Normal"
+    ],
+    "familyId": "sumole",
+    "familyName": "Sumole"
+  },
+  {
+    "id": "chimilla",
+    "dexId": 11,
+    "dexNumber": 12,
+    "name": "Chimilla",
+    "sprite": "plantGorilla1",
+    "sourceFunction": "GrassGorilla_stage1",
+    "stage": 1,
+    "types": [
+      "plant",
+      "normal"
+    ],
+    "baseStats": {
+      "health": 35,
+      "energy": 25,
+      "attack": 40,
+      "healing": 15,
+      "speed": 25
+    },
+    "maxStats": {
+      "health": 215,
+      "energy": 120,
+      "attack": 125,
+      "healing": 50,
+      "speed": 80
+    },
+    "gems": {
+      "total": 1,
+      "locked": 1
+    },
+    "evolvesAt": 14,
+    "startingMoves": [
+      "pound_t1",
+      "roar_t1"
+    ],
+    "specializationMoves": [
+      "tree_slam_t1",
+      "hulk_inspiration_t1",
+      "grind_t1"
+    ],
+    "treeIds": [
+      "GrassGorilla_Grass",
+      "GrassGorilla_Support",
+      "GrassGorilla_Normal"
+    ],
+    "familyId": "cactilla",
+    "familyName": "Cactilla"
+  },
+  {
+    "id": "cactilla",
+    "dexId": 12,
+    "dexNumber": 13,
+    "name": "Cactilla",
+    "sprite": "plantGorilla2",
+    "sourceFunction": "GrassGorilla_stage2",
+    "stage": 2,
+    "types": [
+      "plant",
+      "normal"
+    ],
+    "baseStats": {
+      "health": 60,
+      "energy": 40,
+      "attack": 65,
+      "healing": 25,
+      "speed": 35
+    },
+    "maxStats": {
+      "health": 365,
+      "energy": 187,
+      "attack": 200,
+      "healing": 80,
+      "speed": 110
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "pound_t1",
+      "roar_t1"
+    ],
+    "specializationMoves": [
+      "tree_slam_t1",
+      "hulk_inspiration_t1",
+      "grind_t1"
+    ],
+    "treeIds": [
+      "GrassGorilla_Grass",
+      "GrassGorilla_Support",
+      "GrassGorilla_Normal"
+    ],
+    "familyId": "cactilla",
+    "familyName": "Cactilla"
+  },
+  {
+    "id": "kittyvile",
+    "dexId": 13,
+    "dexNumber": 14,
+    "name": "Kittyvile",
+    "sprite": "demonicCat1",
+    "sourceFunction": "DemonicCat_stage1",
+    "stage": 1,
+    "types": [
+      "demonic"
+    ],
+    "baseStats": {
+      "health": 15,
+      "energy": 25,
+      "attack": 50,
+      "healing": 30,
+      "speed": 55
+    },
+    "maxStats": {
+      "health": 95,
+      "energy": 120,
+      "attack": 155,
+      "healing": 95,
+      "speed": 170
+    },
+    "gems": {
+      "total": 1,
+      "locked": 1
+    },
+    "evolvesAt": 23,
+    "startingMoves": [
+      "claw_t1"
+    ],
+    "specializationMoves": [
+      "evil_eye_t1",
+      "blood_press_t1",
+      "reflect_damage_t1"
+    ],
+    "treeIds": [
+      "DemonicCat_Buffs",
+      "DemonicCat_Demonic",
+      "DemonicCat_Normal"
+    ],
+    "familyId": "pumafiend",
+    "familyName": "Pumafiend"
+  },
+  {
+    "id": "pumafiend",
+    "dexId": 14,
+    "dexNumber": 15,
+    "name": "Pumafiend",
+    "sprite": "demonicCat2",
+    "sourceFunction": "DemonicCat_stage2",
+    "stage": 2,
+    "types": [
+      "demonic"
+    ],
+    "baseStats": {
+      "health": 25,
+      "energy": 35,
+      "attack": 70,
+      "healing": 40,
+      "speed": 75
+    },
+    "maxStats": {
+      "health": 155,
+      "energy": 165,
+      "attack": 215,
+      "healing": 125,
+      "speed": 230
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "claw_t1"
+    ],
+    "specializationMoves": [
+      "evil_eye_t1",
+      "blood_press_t1",
+      "reflect_damage_t1"
+    ],
+    "treeIds": [
+      "DemonicCat_Buffs",
+      "DemonicCat_Demonic",
+      "DemonicCat_Normal"
+    ],
+    "familyId": "pumafiend",
+    "familyName": "Pumafiend"
+  },
+  {
+    "id": "betehorn",
+    "dexId": 15,
+    "dexNumber": 16,
+    "name": "Betehorn",
+    "sprite": "earthBeetle1",
+    "sourceFunction": "GroundAttacker_stage1",
+    "stage": 1,
+    "types": [
+      "earth",
+      "normal"
+    ],
+    "baseStats": {
+      "health": 37,
+      "energy": 30,
+      "attack": 45,
+      "healing": 20,
+      "speed": 30
+    },
+    "maxStats": {
+      "health": 227,
+      "energy": 142,
+      "attack": 140,
+      "healing": 65,
+      "speed": 95
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 20,
+    "startingMoves": [
+      "pound_t1",
+      "rock_throw_t1"
+    ],
+    "specializationMoves": [
+      "stone_fall_t1",
+      "rancid_bite_t1",
+      "tackle_t1"
+    ],
+    "treeIds": [
+      "GroundAttacker_Ground",
+      "GroundAttacker_Mixed",
+      "GroundAttacker_Normal"
+    ],
+    "familyId": "betehulk",
+    "familyName": "Betehulk"
+  },
+  {
+    "id": "betestone",
+    "dexId": 16,
+    "dexNumber": 17,
+    "name": "Betestone",
+    "sprite": "earthBeetle2",
+    "sourceFunction": "GroundAttacker_stage2",
+    "stage": 2,
+    "types": [
+      "earth",
+      "normal"
+    ],
+    "baseStats": {
+      "health": 50,
+      "energy": 35,
+      "attack": 60,
+      "healing": 25,
+      "speed": 40
+    },
+    "maxStats": {
+      "health": 305,
+      "energy": 165,
+      "attack": 185,
+      "healing": 80,
+      "speed": 125
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 50,
+    "startingMoves": [
+      "pound_t1",
+      "rock_throw_t1"
+    ],
+    "specializationMoves": [
+      "stone_fall_t1",
+      "rancid_bite_t1",
+      "tackle_t1"
+    ],
+    "treeIds": [
+      "GroundAttacker_Ground",
+      "GroundAttacker_Mixed",
+      "GroundAttacker_Normal"
+    ],
+    "familyId": "betehulk",
+    "familyName": "Betehulk"
+  },
+  {
+    "id": "betehulk",
+    "dexId": 17,
+    "dexNumber": 18,
+    "name": "Betehulk",
+    "sprite": "earthBeetle3",
+    "sourceFunction": "GroundAttacker_stage3",
+    "stage": 3,
+    "types": [
+      "earth",
+      "normal"
+    ],
+    "baseStats": {
+      "health": 85,
+      "energy": 40,
+      "attack": 85,
+      "healing": 30,
+      "speed": 45
+    },
+    "maxStats": {
+      "health": 515,
+      "energy": 187,
+      "attack": 260,
+      "healing": 95,
+      "speed": 140
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "pound_t1",
+      "rock_throw_t1"
+    ],
+    "specializationMoves": [
+      "stone_fall_t1",
+      "rancid_bite_t1",
+      "tackle_t1"
+    ],
+    "treeIds": [
+      "GroundAttacker_Ground",
+      "GroundAttacker_Mixed",
+      "GroundAttacker_Normal"
+    ],
+    "familyId": "betehulk",
+    "familyName": "Betehulk"
+  },
+  {
+    "id": "archick",
+    "dexId": 18,
+    "dexNumber": 19,
+    "name": "Archick",
+    "sprite": "flyingOwl1",
+    "sourceFunction": "IceBird_stage1",
+    "stage": 1,
+    "types": [
+      "flying",
+      "ice"
+    ],
+    "baseStats": {
+      "health": 20,
+      "energy": 35,
+      "attack": 30,
+      "healing": 35,
+      "speed": 45
+    },
+    "maxStats": {
+      "health": 125,
+      "energy": 165,
+      "attack": 95,
+      "healing": 110,
+      "speed": 140
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 24,
+    "startingMoves": [
+      "claw_t1",
+      "peck_t1"
+    ],
+    "specializationMoves": [
+      "icy_blast_t1",
+      "flurry_t1",
+      "ice_shield_t1"
+    ],
+    "treeIds": [
+      "IceBird_Ice",
+      "IceBird_Flying",
+      "IceBird_Reflect"
+    ],
+    "familyId": "arcticowl",
+    "familyName": "Arcticowl"
+  },
+  {
+    "id": "arcticowl",
+    "dexId": 19,
+    "dexNumber": 20,
+    "name": "Arcticowl",
+    "sprite": "flyingOwl2",
+    "sourceFunction": "IceBird_stage2",
+    "stage": 2,
+    "types": [
+      "flying",
+      "ice"
+    ],
+    "baseStats": {
+      "health": 30,
+      "energy": 45,
+      "attack": 65,
+      "healing": 50,
+      "speed": 70
+    },
+    "maxStats": {
+      "health": 185,
+      "energy": 210,
+      "attack": 200,
+      "healing": 155,
+      "speed": 215
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "claw_t1",
+      "peck_t1"
+    ],
+    "specializationMoves": [
+      "icy_blast_t1",
+      "flurry_t1",
+      "ice_shield_t1"
+    ],
+    "treeIds": [
+      "IceBird_Ice",
+      "IceBird_Flying",
+      "IceBird_Reflect"
+    ],
+    "familyId": "arcticowl",
+    "familyName": "Arcticowl"
+  },
+  {
+    "id": "shrumpy",
+    "dexId": 20,
+    "dexNumber": 21,
+    "name": "Shrumpy",
+    "sprite": "iceTree1",
+    "sourceFunction": "IceTree_stage1",
+    "stage": 1,
+    "types": [
+      "plant",
+      "ice"
+    ],
+    "baseStats": {
+      "health": 40,
+      "energy": 35,
+      "attack": 40,
+      "healing": 25,
+      "speed": 30
+    },
+    "maxStats": {
+      "health": 245,
+      "energy": 165,
+      "attack": 125,
+      "healing": 80,
+      "speed": 95
+    },
+    "gems": {
+      "total": 1,
+      "locked": 1
+    },
+    "evolvesAt": 19,
+    "startingMoves": [
+      "pound_t1"
+    ],
+    "specializationMoves": [
+      "tree_slam_t1",
+      "sleet_t1",
+      "nourish_t1"
+    ],
+    "treeIds": [
+      "IceTree_Grass",
+      "IceTree_Ice",
+      "IceTree_Healing"
+    ],
+    "familyId": "eldrest",
+    "familyName": "Eldrest"
+  },
+  {
+    "id": "eldrest",
+    "dexId": 21,
+    "dexNumber": 22,
+    "name": "Eldrest",
+    "sprite": "iceTree2",
+    "sourceFunction": "IceTree_stage2",
+    "stage": 2,
+    "types": [
+      "plant",
+      "ice"
+    ],
+    "baseStats": {
+      "health": 65,
+      "energy": 50,
+      "attack": 55,
+      "healing": 35,
+      "speed": 35
+    },
+    "maxStats": {
+      "health": 395,
+      "energy": 232,
+      "attack": 170,
+      "healing": 110,
+      "speed": 110
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "pound_t1"
+    ],
+    "specializationMoves": [
+      "tree_slam_t1",
+      "sleet_t1",
+      "nourish_t1"
+    ],
+    "treeIds": [
+      "IceTree_Grass",
+      "IceTree_Ice",
+      "IceTree_Healing"
+    ],
+    "familyId": "eldrest",
+    "familyName": "Eldrest"
+  },
+  {
+    "id": "wafin",
+    "dexId": 22,
+    "dexNumber": 23,
+    "name": "Wafin",
+    "sprite": "waterLandShark",
+    "sourceFunction": "LandShark_stage1",
+    "stage": 1,
+    "types": [
+      "water"
+    ],
+    "baseStats": {
+      "health": 40,
+      "energy": 40,
+      "attack": 40,
+      "healing": 40,
+      "speed": 60
+    },
+    "maxStats": {
+      "health": 245,
+      "energy": 187,
+      "attack": 125,
+      "healing": 125,
+      "speed": 185
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "pound_t1"
+    ],
+    "specializationMoves": [
+      "tire_t1",
+      "roar_t1",
+      "waterjet_t1"
+    ],
+    "treeIds": [
+      "LandShark_Support",
+      "LandShark_Mixed",
+      "LandShark_Damage"
+    ],
+    "familyId": "wafin",
+    "familyName": "Wafin"
+  },
+  {
+    "id": "tatail",
+    "dexId": 23,
+    "dexNumber": 24,
+    "name": "Tatail",
+    "sprite": "normalRaccoon1",
+    "sourceFunction": "Racoon_stage1",
+    "stage": 1,
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "health": 30,
+      "energy": 40,
+      "attack": 35,
+      "healing": 25,
+      "speed": 40
+    },
+    "maxStats": {
+      "health": 185,
+      "energy": 187,
+      "attack": 110,
+      "healing": 80,
+      "speed": 125
+    },
+    "gems": {
+      "total": 1,
+      "locked": 1
+    },
+    "evolvesAt": 20,
+    "startingMoves": [
+      "claw_t1"
+    ],
+    "specializationMoves": [
+      "soak_t1",
+      "sear_t1",
+      "spark_t1"
+    ],
+    "treeIds": [
+      "Racoon_Water",
+      "Racoon_Fire",
+      "Racoon_Electric"
+    ],
+    "familyId": "kleptoon",
+    "familyName": "Kleptoon"
+  },
+  {
+    "id": "kleptoon",
+    "dexId": 24,
+    "dexNumber": 25,
+    "name": "Kleptoon",
+    "sprite": "normalRaccoon2",
+    "sourceFunction": "Racoon_stage2",
+    "stage": 2,
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "health": 40,
+      "energy": 50,
+      "attack": 50,
+      "healing": 35,
+      "speed": 65
+    },
+    "maxStats": {
+      "health": 245,
+      "energy": 232,
+      "attack": 155,
+      "healing": 110,
+      "speed": 200
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "claw_t1"
+    ],
+    "specializationMoves": [
+      "soak_t1",
+      "sear_t1",
+      "spark_t1"
+    ],
+    "treeIds": [
+      "Racoon_Water",
+      "Racoon_Fire",
+      "Racoon_Electric"
+    ],
+    "familyId": "kleptoon",
+    "familyName": "Kleptoon"
+  },
+  {
+    "id": "chirpla",
+    "dexId": 25,
+    "dexNumber": 26,
+    "name": "Chirpla",
+    "sprite": "flyingSongbird1",
+    "sourceFunction": "WaterBird_stage1",
+    "stage": 1,
+    "types": [
+      "flying"
+    ],
+    "baseStats": {
+      "health": 5,
+      "energy": 25,
+      "attack": 40,
+      "healing": 25,
+      "speed": 45
+    },
+    "maxStats": {
+      "health": 35,
+      "energy": 120,
+      "attack": 125,
+      "healing": 80,
+      "speed": 140
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 21,
+    "startingMoves": [
+      "peck_t1",
+      "soak_t1"
+    ],
+    "specializationMoves": [
+      "soak_t2",
+      "flurry_t1",
+      "slow_t1"
+    ],
+    "treeIds": [
+      "WaterBird_Water",
+      "WaterBird_Flying",
+      "WaterBird_Support"
+    ],
+    "familyId": "falcona",
+    "familyName": "Falcona"
+  },
+  {
+    "id": "airmony",
+    "dexId": 26,
+    "dexNumber": 27,
+    "name": "Airmony",
+    "sprite": "flyingSongbird2",
+    "sourceFunction": "WaterBird_stage2",
+    "stage": 2,
+    "types": [
+      "flying",
+      "water"
+    ],
+    "baseStats": {
+      "health": 10,
+      "energy": 30,
+      "attack": 55,
+      "healing": 30,
+      "speed": 60
+    },
+    "maxStats": {
+      "health": 65,
+      "energy": 142,
+      "attack": 170,
+      "healing": 95,
+      "speed": 185
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 36,
+    "startingMoves": [
+      "peck_t1",
+      "soak_t1"
+    ],
+    "specializationMoves": [
+      "soak_t2",
+      "flurry_t1",
+      "slow_t1"
+    ],
+    "treeIds": [
+      "WaterBird_Water",
+      "WaterBird_Flying",
+      "WaterBird_Support"
+    ],
+    "familyId": "falcona",
+    "familyName": "Falcona"
+  },
+  {
+    "id": "falcona",
+    "dexId": 27,
+    "dexNumber": 28,
+    "name": "Falcona",
+    "sprite": "flyingSongbird3",
+    "sourceFunction": "WaterBird_stage3",
+    "stage": 3,
+    "types": [
+      "flying",
+      "water"
+    ],
+    "baseStats": {
+      "health": 15,
+      "energy": 35,
+      "attack": 75,
+      "healing": 35,
+      "speed": 85
+    },
+    "maxStats": {
+      "health": 95,
+      "energy": 165,
+      "attack": 230,
+      "healing": 110,
+      "speed": 260
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "peck_t1",
+      "soak_t1"
+    ],
+    "specializationMoves": [
+      "soak_t2",
+      "flurry_t1",
+      "slow_t1"
+    ],
+    "treeIds": [
+      "WaterBird_Water",
+      "WaterBird_Flying",
+      "WaterBird_Support"
+    ],
+    "familyId": "falcona",
+    "familyName": "Falcona"
+  },
+  {
+    "id": "sealo",
+    "dexId": 28,
+    "dexNumber": 29,
+    "name": "Sealo",
+    "sprite": "waterSeal1",
+    "sourceFunction": "WaterSeal_stage1",
+    "stage": 1,
+    "types": [
+      "ice",
+      "water"
+    ],
+    "baseStats": {
+      "health": 50,
+      "energy": 45,
+      "attack": 40,
+      "healing": 20,
+      "speed": 20
+    },
+    "maxStats": {
+      "health": 305,
+      "energy": 210,
+      "attack": 125,
+      "healing": 65,
+      "speed": 65
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 24,
+    "startingMoves": [
+      "pound_t1"
+    ],
+    "specializationMoves": [
+      "waterjet_t1",
+      "hailstone_t1",
+      "invigorate_t1"
+    ],
+    "treeIds": [
+      "WaterSeal_Water",
+      "WaterSeal_Ice",
+      "WaterSeal_Support"
+    ],
+    "familyId": "sealast",
+    "familyName": "Sealast"
+  },
+  {
+    "id": "sealast",
+    "dexId": 29,
+    "dexNumber": 30,
+    "name": "Sealast",
+    "sprite": "waterSeal2",
+    "sourceFunction": "WaterSeal_stage2",
+    "stage": 2,
+    "types": [
+      "ice",
+      "water"
+    ],
+    "baseStats": {
+      "health": 75,
+      "energy": 60,
+      "attack": 55,
+      "healing": 30,
+      "speed": 30
+    },
+    "maxStats": {
+      "health": 455,
+      "energy": 277,
+      "attack": 170,
+      "healing": 95,
+      "speed": 95
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "pound_t1"
+    ],
+    "specializationMoves": [
+      "waterjet_t1",
+      "hailstone_t1",
+      "invigorate_t1"
+    ],
+    "treeIds": [
+      "WaterSeal_Water",
+      "WaterSeal_Ice",
+      "WaterSeal_Support"
+    ],
+    "familyId": "sealast",
+    "familyName": "Sealast"
+  },
+  {
+    "id": "foramare",
+    "dexId": 30,
+    "dexNumber": 31,
+    "name": "Foramare",
+    "sprite": "waterHorse",
+    "sourceFunction": "WaterGrassHorse_stage1",
+    "stage": 1,
+    "types": [
+      "plant",
+      "water"
+    ],
+    "baseStats": {
+      "health": 60,
+      "energy": 75,
+      "attack": 60,
+      "healing": 75,
+      "speed": 45
+    },
+    "maxStats": {
+      "health": 365,
+      "energy": 345,
+      "attack": 185,
+      "healing": 230,
+      "speed": 140
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "pound_t1"
+    ],
+    "specializationMoves": [
+      "overflow_t1",
+      "swift_mend_t1",
+      "spore_blast_t1"
+    ],
+    "treeIds": [
+      "WaterGrassHorse_Water",
+      "WaterGrassHorse_Grass",
+      "WaterGrassHorse_Damage"
+    ],
+    "familyId": "foramare",
+    "familyName": "Foramare"
+  },
+  {
+    "id": "tadcoal",
+    "dexId": 31,
+    "dexNumber": 32,
+    "name": "Tadcoal",
+    "sprite": "fireToad1",
+    "sourceFunction": "FireFrog_stage1",
+    "stage": 1,
+    "types": [
+      "fire"
+    ],
+    "baseStats": {
+      "health": 35,
+      "energy": 30,
+      "attack": 40,
+      "healing": 35,
+      "speed": 30
+    },
+    "maxStats": {
+      "health": 215,
+      "energy": 142,
+      "attack": 125,
+      "healing": 110,
+      "speed": 95
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 23,
+    "startingMoves": [
+      "pound_t1",
+      "sear_t1"
+    ],
+    "specializationMoves": [
+      "touch_fire_t1",
+      "fire_shot_t1",
+      "energizing_inspiration_t1"
+    ],
+    "treeIds": [
+      "FireFrog_Direct",
+      "FireFrog_Group",
+      "FireFrog_Normal"
+    ],
+    "familyId": "eruptoad",
+    "familyName": "Eruptoad"
+  },
+  {
+    "id": "volcanoad",
+    "dexId": 32,
+    "dexNumber": 33,
+    "name": "Volcanoad",
+    "sprite": "fireToad2",
+    "sourceFunction": "FireFrog_stage2",
+    "stage": 2,
+    "types": [
+      "fire"
+    ],
+    "baseStats": {
+      "health": 50,
+      "energy": 32,
+      "attack": 48,
+      "healing": 40,
+      "speed": 32
+    },
+    "maxStats": {
+      "health": 305,
+      "energy": 151,
+      "attack": 149,
+      "healing": 125,
+      "speed": 101
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 34,
+    "startingMoves": [
+      "pound_t1",
+      "sear_t1"
+    ],
+    "specializationMoves": [
+      "touch_fire_t1",
+      "fire_shot_t1",
+      "energizing_inspiration_t1"
+    ],
+    "treeIds": [
+      "FireFrog_Direct",
+      "FireFrog_Group",
+      "FireFrog_Normal"
+    ],
+    "familyId": "eruptoad",
+    "familyName": "Eruptoad"
+  },
+  {
+    "id": "eruptoad",
+    "dexId": 33,
+    "dexNumber": 34,
+    "name": "Eruptoad",
+    "sprite": "fireToad3",
+    "sourceFunction": "FireFrog_stage3",
+    "stage": 3,
+    "types": [
+      "fire"
+    ],
+    "baseStats": {
+      "health": 65,
+      "energy": 35,
+      "attack": 55,
+      "healing": 45,
+      "speed": 35
+    },
+    "maxStats": {
+      "health": 395,
+      "energy": 165,
+      "attack": 170,
+      "healing": 140,
+      "speed": 110
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "pound_t1",
+      "sear_t1"
+    ],
+    "specializationMoves": [
+      "touch_fire_t1",
+      "fire_shot_t1",
+      "energizing_inspiration_t1"
+    ],
+    "treeIds": [
+      "FireFrog_Direct",
+      "FireFrog_Group",
+      "FireFrog_Normal"
+    ],
+    "familyId": "eruptoad",
+    "familyName": "Eruptoad"
+  },
+  {
+    "id": "wormif",
+    "dexId": 34,
+    "dexNumber": 35,
+    "name": "Wormif",
+    "sprite": "earthWorm1",
+    "sourceFunction": "Worm_stage1",
+    "stage": 1,
+    "types": [
+      "earth",
+      "normal"
+    ],
+    "baseStats": {
+      "health": 30,
+      "energy": 30,
+      "attack": 35,
+      "healing": 15,
+      "speed": 35
+    },
+    "maxStats": {
+      "health": 185,
+      "energy": 142,
+      "attack": 110,
+      "healing": 50,
+      "speed": 110
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 25,
+    "startingMoves": [
+      "tackle_t1",
+      "rock_slide_t1"
+    ],
+    "specializationMoves": [
+      "infes_t1",
+      "earthquake_t1",
+      "grind_t1"
+    ],
+    "treeIds": [
+      "Worm_undead",
+      "Worm_earth",
+      "Worm_normal"
+    ],
+    "familyId": "riffra",
+    "familyName": "Riffra"
+  },
+  {
+    "id": "rottar",
+    "dexId": 35,
+    "dexNumber": 36,
+    "name": "Rottar",
+    "sprite": "earthWorm2",
+    "sourceFunction": "Worm_stage2",
+    "stage": 2,
+    "types": [
+      "earth",
+      "normal"
+    ],
+    "baseStats": {
+      "health": 50,
+      "energy": 35,
+      "attack": 55,
+      "healing": 20,
+      "speed": 40
+    },
+    "maxStats": {
+      "health": 305,
+      "energy": 165,
+      "attack": 170,
+      "healing": 65,
+      "speed": 125
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 37,
+    "startingMoves": [
+      "tackle_t1",
+      "rock_slide_t1"
+    ],
+    "specializationMoves": [
+      "infes_t1",
+      "earthquake_t1",
+      "grind_t1"
+    ],
+    "treeIds": [
+      "Worm_undead",
+      "Worm_earth",
+      "Worm_normal"
+    ],
+    "familyId": "riffra",
+    "familyName": "Riffra"
+  },
+  {
+    "id": "riffra",
+    "dexId": 36,
+    "dexNumber": 37,
+    "name": "Riffra",
+    "sprite": "earthWorm3",
+    "sourceFunction": "Worm_stage3",
+    "stage": 3,
+    "types": [
+      "earth",
+      "normal"
+    ],
+    "baseStats": {
+      "health": 70,
+      "energy": 40,
+      "attack": 70,
+      "healing": 25,
+      "speed": 60
+    },
+    "maxStats": {
+      "health": 425,
+      "energy": 187,
+      "attack": 215,
+      "healing": 80,
+      "speed": 185
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "tackle_t1",
+      "rock_slide_t1"
+    ],
+    "specializationMoves": [
+      "infes_t1",
+      "earthquake_t1",
+      "grind_t1"
+    ],
+    "treeIds": [
+      "Worm_undead",
+      "Worm_earth",
+      "Worm_normal"
+    ],
+    "familyId": "riffra",
+    "familyName": "Riffra"
+  },
+  {
+    "id": "octaleaf",
+    "dexId": 37,
+    "dexNumber": 38,
+    "name": "Octaleaf",
+    "sprite": "plantSquid1",
+    "sourceFunction": "EarthPlant_stage1",
+    "stage": 1,
+    "types": [
+      "plant"
+    ],
+    "baseStats": {
+      "health": 35,
+      "energy": 40,
+      "attack": 25,
+      "healing": 40,
+      "speed": 25
+    },
+    "maxStats": {
+      "health": 215,
+      "energy": 187,
+      "attack": 80,
+      "healing": 125,
+      "speed": 80
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 21,
+    "startingMoves": [
+      "pound_t1",
+      "razor_vine_t1"
+    ],
+    "specializationMoves": [
+      "regrowth_t1",
+      "mud_blast_t1",
+      "tire_t1"
+    ],
+    "treeIds": [
+      "GroundPlant_Healing",
+      "GroundPlant_Earth",
+      "GroundPlant_Normal"
+    ],
+    "familyId": "octatree",
+    "familyName": "Octatree"
+  },
+  {
+    "id": "octagrass",
+    "dexId": 38,
+    "dexNumber": 39,
+    "name": "Octagrass",
+    "sprite": "plantSquid2",
+    "sourceFunction": "EarthPlant_stage2",
+    "stage": 2,
+    "types": [
+      "plant"
+    ],
+    "baseStats": {
+      "health": 40,
+      "energy": 55,
+      "attack": 35,
+      "healing": 50,
+      "speed": 30
+    },
+    "maxStats": {
+      "health": 245,
+      "energy": 255,
+      "attack": 110,
+      "healing": 155,
+      "speed": 95
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 33,
+    "startingMoves": [
+      "pound_t1",
+      "razor_vine_t1"
+    ],
+    "specializationMoves": [
+      "regrowth_t1",
+      "mud_blast_t1",
+      "tire_t1"
+    ],
+    "treeIds": [
+      "GroundPlant_Healing",
+      "GroundPlant_Earth",
+      "GroundPlant_Normal"
+    ],
+    "familyId": "octatree",
+    "familyName": "Octatree"
+  },
+  {
+    "id": "octatree",
+    "dexId": 39,
+    "dexNumber": 40,
+    "name": "Octatree",
+    "sprite": "plantSquid3",
+    "sourceFunction": "EarthPlant_stage3",
+    "stage": 3,
+    "types": [
+      "plant"
+    ],
+    "baseStats": {
+      "health": 45,
+      "energy": 70,
+      "attack": 45,
+      "healing": 60,
+      "speed": 35
+    },
+    "maxStats": {
+      "health": 275,
+      "energy": 322,
+      "attack": 140,
+      "healing": 185,
+      "speed": 110
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "pound_t1",
+      "razor_vine_t1"
+    ],
+    "specializationMoves": [
+      "regrowth_t1",
+      "mud_blast_t1",
+      "tire_t1"
+    ],
+    "treeIds": [
+      "GroundPlant_Healing",
+      "GroundPlant_Earth",
+      "GroundPlant_Normal"
+    ],
+    "familyId": "octatree",
+    "familyName": "Octatree"
+  },
+  {
+    "id": "vudu",
+    "dexId": 40,
+    "dexNumber": 41,
+    "name": "Vudu",
+    "sprite": "fireMonkey1",
+    "sourceFunction": "TikiMonkey_stage1",
+    "stage": 1,
+    "types": [
+      "fire"
+    ],
+    "baseStats": {
+      "health": 20,
+      "energy": 25,
+      "attack": 45,
+      "healing": 35,
+      "speed": 40
+    },
+    "maxStats": {
+      "health": 125,
+      "energy": 120,
+      "attack": 140,
+      "healing": 110,
+      "speed": 125
+    },
+    "gems": {
+      "total": 1,
+      "locked": 1
+    },
+    "evolvesAt": 30,
+    "startingMoves": [
+      "tackle_t1",
+      "sear_t1"
+    ],
+    "specializationMoves": [
+      "blaze_t1",
+      "chosen_earth_t1",
+      "mirror_skin_t1"
+    ],
+    "treeIds": [
+      "TikiMonkey_Fire",
+      "TikiMonkey_Buffs",
+      "TikiMonkey_Normal"
+    ],
+    "familyId": "hudu",
+    "familyName": "Hudu"
+  },
+  {
+    "id": "hudu",
+    "dexId": 41,
+    "dexNumber": 42,
+    "name": "Hudu",
+    "sprite": "fireMonkey2",
+    "sourceFunction": "TikiMonkey_stage2",
+    "stage": 2,
+    "types": [
+      "fire"
+    ],
+    "baseStats": {
+      "health": 40,
+      "energy": 35,
+      "attack": 55,
+      "healing": 45,
+      "speed": 65
+    },
+    "maxStats": {
+      "health": 245,
+      "energy": 165,
+      "attack": 170,
+      "healing": 140,
+      "speed": 200
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "tackle_t1",
+      "sear_t1"
+    ],
+    "specializationMoves": [
+      "blaze_t1",
+      "chosen_earth_t1",
+      "mirror_skin_t1"
+    ],
+    "treeIds": [
+      "TikiMonkey_Fire",
+      "TikiMonkey_Buffs",
+      "TikiMonkey_Normal"
+    ],
+    "familyId": "hudu",
+    "familyName": "Hudu"
+  },
+  {
+    "id": "cubble",
+    "dexId": 42,
+    "dexNumber": 43,
+    "name": "Cubble",
+    "sprite": "earthBear1",
+    "sourceFunction": "FireBear_stage1",
+    "stage": 1,
+    "types": [
+      "fire",
+      "earth"
+    ],
+    "baseStats": {
+      "health": 55,
+      "energy": 35,
+      "attack": 50,
+      "healing": 10,
+      "speed": 20
+    },
+    "maxStats": {
+      "health": 335,
+      "energy": 165,
+      "attack": 155,
+      "healing": 35,
+      "speed": 65
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 28,
+    "startingMoves": [
+      "claw_t1",
+      "sear_t1"
+    ],
+    "specializationMoves": [
+      "fire_bash_t1",
+      "taunt_t2",
+      "crush_t1"
+    ],
+    "treeIds": [
+      "FireBear_fire",
+      "FireBear_guard",
+      "FireBear_normal"
+    ],
+    "familyId": "blazebar",
+    "familyName": "Blazebar"
+  },
+  {
+    "id": "blazebar",
+    "dexId": 43,
+    "dexNumber": 44,
+    "name": "Blazebar",
+    "sprite": "earthBear2",
+    "sourceFunction": "FireBear_stage2",
+    "stage": 2,
+    "types": [
+      "fire",
+      "earth"
+    ],
+    "baseStats": {
+      "health": 80,
+      "energy": 40,
+      "attack": 70,
+      "healing": 15,
+      "speed": 20
+    },
+    "maxStats": {
+      "health": 485,
+      "energy": 187,
+      "attack": 215,
+      "healing": 50,
+      "speed": 65
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "claw_t1",
+      "sear_t1"
+    ],
+    "specializationMoves": [
+      "fire_bash_t1",
+      "taunt_t2",
+      "crush_t1"
+    ],
+    "treeIds": [
+      "FireBear_fire",
+      "FireBear_guard",
+      "FireBear_normal"
+    ],
+    "familyId": "blazebar",
+    "familyName": "Blazebar"
+  },
+  {
+    "id": "chameleon",
+    "dexId": 44,
+    "dexNumber": 45,
+    "name": "Chameleon",
+    "sprite": "plantLizard",
+    "sourceFunction": "Chameleon_stage1",
+    "stage": 1,
+    "types": [
+      "plant",
+      "dino"
+    ],
+    "baseStats": {
+      "health": 50,
+      "energy": 45,
+      "attack": 65,
+      "healing": 45,
+      "speed": 40
+    },
+    "maxStats": {
+      "health": 305,
+      "energy": 210,
+      "attack": 200,
+      "healing": 140,
+      "speed": 125
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "pound_t1"
+    ],
+    "specializationMoves": [
+      "grassblade_t1",
+      "prehistoric_bite_t1",
+      "tire_t1"
+    ],
+    "treeIds": [
+      "Chameleon_Grass",
+      "Chameleon_Dino",
+      "Chameleon_Normal"
+    ],
+    "familyId": "chameleon",
+    "familyName": "Chameleon"
+  },
+  {
+    "id": "harwing",
+    "dexId": 45,
+    "dexNumber": 46,
+    "name": "Harwing",
+    "sprite": "flyingHarpy",
+    "sourceFunction": "Harpy_stage1",
+    "stage": 1,
+    "types": [
+      "demonic",
+      "flying"
+    ],
+    "baseStats": {
+      "health": 25,
+      "energy": 40,
+      "attack": 60,
+      "healing": 60,
+      "speed": 75
+    },
+    "maxStats": {
+      "health": 155,
+      "energy": 187,
+      "attack": 185,
+      "healing": 185,
+      "speed": 230
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "peck_t1"
+    ],
+    "specializationMoves": [
+      "cutting_wind_t1",
+      "demonic_bargain_t1",
+      "wildfire_t1"
+    ],
+    "treeIds": [
+      "Harpy_Flying",
+      "Harpy_Demonic",
+      "Harpy_Fire"
+    ],
+    "familyId": "harwing",
+    "familyName": "Harwing"
+  },
+  {
+    "id": "firox",
+    "dexId": 46,
+    "dexNumber": 47,
+    "name": "Firox",
+    "sprite": "holyFox",
+    "sourceFunction": "HolyFox_stage1",
+    "stage": 1,
+    "types": [
+      "fire",
+      "holy"
+    ],
+    "baseStats": {
+      "health": 35,
+      "energy": 40,
+      "attack": 60,
+      "healing": 60,
+      "speed": 70
+    },
+    "maxStats": {
+      "health": 215,
+      "energy": 187,
+      "attack": 185,
+      "healing": 185,
+      "speed": 215
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "tackle_t1",
+      "sear_t1"
+    ],
+    "specializationMoves": [
+      "purge_t1",
+      "intense_flame_t1",
+      "mending_inspiration_t1"
+    ],
+    "treeIds": [
+      "HolyFox_Holy",
+      "HolyFox_Fire",
+      "HolyFox_Normal"
+    ],
+    "familyId": "firox",
+    "familyName": "Firox"
+  },
+  {
+    "id": "elecat",
+    "dexId": 47,
+    "dexNumber": 48,
+    "name": "Elecat",
+    "sprite": "energyCheetah1",
+    "sourceFunction": "Cheetah_stage1",
+    "stage": 1,
+    "types": [
+      "electric"
+    ],
+    "baseStats": {
+      "health": 25,
+      "energy": 35,
+      "attack": 40,
+      "healing": 25,
+      "speed": 50
+    },
+    "maxStats": {
+      "health": 155,
+      "energy": 165,
+      "attack": 125,
+      "healing": 80,
+      "speed": 155
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 25,
+    "startingMoves": [
+      "claw_t1",
+      "spark_t1"
+    ],
+    "specializationMoves": [
+      "charge_blast_t1",
+      "charge_pass_t1",
+      "agile_inspiration_t1"
+    ],
+    "treeIds": [
+      "Cheetah_Electric",
+      "Cheetah_Support",
+      "Cheetah_Inspire"
+    ],
+    "familyId": "lightina",
+    "familyName": "Lightina"
+  },
+  {
+    "id": "cheecha",
+    "dexId": 48,
+    "dexNumber": 49,
+    "name": "Cheecha",
+    "sprite": "energyCheetah2",
+    "sourceFunction": "Cheetah_stage2",
+    "stage": 2,
+    "types": [
+      "electric"
+    ],
+    "baseStats": {
+      "health": 30,
+      "energy": 40,
+      "attack": 50,
+      "healing": 30,
+      "speed": 70
+    },
+    "maxStats": {
+      "health": 185,
+      "energy": 187,
+      "attack": 155,
+      "healing": 95,
+      "speed": 215
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 39,
+    "startingMoves": [
+      "claw_t1",
+      "spark_t1"
+    ],
+    "specializationMoves": [
+      "charge_blast_t1",
+      "charge_pass_t1",
+      "agile_inspiration_t1"
+    ],
+    "treeIds": [
+      "Cheetah_Electric",
+      "Cheetah_Support",
+      "Cheetah_Inspire"
+    ],
+    "familyId": "lightina",
+    "familyName": "Lightina"
+  },
+  {
+    "id": "lightina",
+    "dexId": 49,
+    "dexNumber": 50,
+    "name": "Lightina",
+    "sprite": "energyCheetah3",
+    "sourceFunction": "Cheetah_stage3",
+    "stage": 3,
+    "types": [
+      "electric"
+    ],
+    "baseStats": {
+      "health": 35,
+      "energy": 45,
+      "attack": 65,
+      "healing": 35,
+      "speed": 95
+    },
+    "maxStats": {
+      "health": 215,
+      "energy": 210,
+      "attack": 200,
+      "healing": 110,
+      "speed": 290
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "claw_t1",
+      "spark_t1"
+    ],
+    "specializationMoves": [
+      "charge_blast_t1",
+      "charge_pass_t1",
+      "agile_inspiration_t1"
+    ],
+    "treeIds": [
+      "Cheetah_Electric",
+      "Cheetah_Support",
+      "Cheetah_Inspire"
+    ],
+    "familyId": "lightina",
+    "familyName": "Lightina"
+  },
+  {
+    "id": "bab-8r",
+    "dexId": 50,
+    "dexNumber": 51,
+    "name": "Bab-8r",
+    "sprite": "robotAnteater1",
+    "sourceFunction": "AntEater_stage1",
+    "stage": 1,
+    "types": [
+      "robot"
+    ],
+    "baseStats": {
+      "health": 35,
+      "energy": 57,
+      "attack": 30,
+      "healing": 25,
+      "speed": 35
+    },
+    "maxStats": {
+      "health": 215,
+      "energy": 264,
+      "attack": 95,
+      "healing": 80,
+      "speed": 110
+    },
+    "gems": {
+      "total": 1,
+      "locked": 1
+    },
+    "evolvesAt": 35,
+    "startingMoves": [
+      "claw_t1"
+    ],
+    "specializationMoves": [
+      "twin_missile_t1",
+      "charge_pass_t1",
+      "invigorate_t1"
+    ],
+    "treeIds": [
+      "AntEater_Robot",
+      "AntEater_Electric",
+      "AntEater_Normal"
+    ],
+    "familyId": "ant-8r",
+    "familyName": "Ant-8r"
+  },
+  {
+    "id": "ant-8r",
+    "dexId": 51,
+    "dexNumber": 52,
+    "name": "Ant-8r",
+    "sprite": "robotAnteater",
+    "sourceFunction": "AntEater_stage2",
+    "stage": 2,
+    "types": [
+      "robot"
+    ],
+    "baseStats": {
+      "health": 55,
+      "energy": 70,
+      "attack": 40,
+      "healing": 35,
+      "speed": 45
+    },
+    "maxStats": {
+      "health": 335,
+      "energy": 322,
+      "attack": 125,
+      "healing": 110,
+      "speed": 140
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "claw_t1"
+    ],
+    "specializationMoves": [
+      "twin_missile_t1",
+      "charge_pass_t1",
+      "invigorate_t1"
+    ],
+    "treeIds": [
+      "AntEater_Robot",
+      "AntEater_Electric",
+      "AntEater_Normal"
+    ],
+    "familyId": "ant-8r",
+    "familyName": "Ant-8r"
+  },
+  {
+    "id": "chidilla",
+    "dexId": 52,
+    "dexNumber": 53,
+    "name": "Chidilla",
+    "sprite": "normalArmadillo1",
+    "sourceFunction": "Armadillo_stage1",
+    "stage": 1,
+    "types": [
+      "robot"
+    ],
+    "baseStats": {
+      "health": 65,
+      "energy": 45,
+      "attack": 30,
+      "healing": 7,
+      "speed": 15
+    },
+    "maxStats": {
+      "health": 395,
+      "energy": 210,
+      "attack": 95,
+      "healing": 26,
+      "speed": 50
+    },
+    "gems": {
+      "total": 1,
+      "locked": 1
+    },
+    "evolvesAt": 34,
+    "startingMoves": [
+      "spike_t1"
+    ],
+    "specializationMoves": [
+      "ore_drill_t1",
+      "taunt_t2",
+      "crush_t1"
+    ],
+    "treeIds": [
+      "Armadillo_Robot",
+      "Armadillo_Gaurd",
+      "Armadillo_Normal"
+    ],
+    "familyId": "armordilla",
+    "familyName": "Armordilla"
+  },
+  {
+    "id": "armordilla",
+    "dexId": 53,
+    "dexNumber": 54,
+    "name": "Armordilla",
+    "sprite": "normalArmadillo",
+    "sourceFunction": "Armadillo_stage2",
+    "stage": 2,
+    "types": [
+      "robot"
+    ],
+    "baseStats": {
+      "health": 85,
+      "energy": 55,
+      "attack": 40,
+      "healing": 10,
+      "speed": 25
+    },
+    "maxStats": {
+      "health": 515,
+      "energy": 255,
+      "attack": 125,
+      "healing": 35,
+      "speed": 80
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "spike_t1"
+    ],
+    "specializationMoves": [
+      "ore_drill_t1",
+      "taunt_t2",
+      "crush_t1"
+    ],
+    "treeIds": [
+      "Armadillo_Robot",
+      "Armadillo_Gaurd",
+      "Armadillo_Normal"
+    ],
+    "familyId": "armordilla",
+    "familyName": "Armordilla"
+  },
+  {
+    "id": "dogler",
+    "dexId": 54,
+    "dexNumber": 55,
+    "name": "Dogler",
+    "sprite": "waterDog1",
+    "sourceFunction": "DogEel_stage1",
+    "stage": 1,
+    "types": [
+      "electric",
+      "demonic"
+    ],
+    "baseStats": {
+      "health": 40,
+      "energy": 30,
+      "attack": 35,
+      "healing": 25,
+      "speed": 35
+    },
+    "maxStats": {
+      "health": 245,
+      "energy": 142,
+      "attack": 110,
+      "healing": 80,
+      "speed": 110
+    },
+    "gems": {
+      "total": 1,
+      "locked": 1
+    },
+    "evolvesAt": 37,
+    "startingMoves": [
+      "spark_t1"
+    ],
+    "specializationMoves": [
+      "blinding_jolt_t1",
+      "demonic_force_t1",
+      "mirror_skin_t1"
+    ],
+    "treeIds": [
+      "DogEel_Electric",
+      "DogEel_Demonic",
+      "DogEel_Normal"
+    ],
+    "familyId": "houndler",
+    "familyName": "Houndler"
+  },
+  {
+    "id": "houndler",
+    "dexId": 55,
+    "dexNumber": 56,
+    "name": "Houndler",
+    "sprite": "waterDog2",
+    "sourceFunction": "DogEel_stage2",
+    "stage": 2,
+    "types": [
+      "electric",
+      "demonic"
+    ],
+    "baseStats": {
+      "health": 55,
+      "energy": 40,
+      "attack": 45,
+      "healing": 35,
+      "speed": 45
+    },
+    "maxStats": {
+      "health": 335,
+      "energy": 187,
+      "attack": 140,
+      "healing": 110,
+      "speed": 140
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "spark_t1"
+    ],
+    "specializationMoves": [
+      "blinding_jolt_t1",
+      "demonic_force_t1",
+      "mirror_skin_t1"
+    ],
+    "treeIds": [
+      "DogEel_Electric",
+      "DogEel_Demonic",
+      "DogEel_Normal"
+    ],
+    "familyId": "houndler",
+    "familyName": "Houndler"
+  },
+  {
+    "id": "slime",
+    "dexId": 56,
+    "dexNumber": 57,
+    "name": "Slime",
+    "sprite": "normalSlime1",
+    "sourceFunction": "Goo_stage1",
+    "stage": 1,
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "health": 40,
+      "energy": 55,
+      "attack": 25,
+      "healing": 25,
+      "speed": 30
+    },
+    "maxStats": {
+      "health": 245,
+      "energy": 255,
+      "attack": 80,
+      "healing": 80,
+      "speed": 95
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 33,
+    "startingMoves": [
+      "tackle_t1"
+    ],
+    "specializationMoves": [
+      "ashen_reminder_t1",
+      "poison_tooth_t1",
+      "slow_t1"
+    ],
+    "treeIds": [
+      "Goo_Undead",
+      "Goo_Normal",
+      "Goo_DeBuffs"
+    ],
+    "familyId": "destroslime",
+    "familyName": "Destroslime"
+  },
+  {
+    "id": "gigaslime",
+    "dexId": 57,
+    "dexNumber": 58,
+    "name": "Gigaslime",
+    "sprite": "normalSlime2",
+    "sourceFunction": "Goo_stage2",
+    "stage": 2,
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "health": 60,
+      "energy": 70,
+      "attack": 35,
+      "healing": 35,
+      "speed": 35
+    },
+    "maxStats": {
+      "health": 365,
+      "energy": 322,
+      "attack": 110,
+      "healing": 110,
+      "speed": 110
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 39,
+    "startingMoves": [
+      "tackle_t1"
+    ],
+    "specializationMoves": [
+      "ashen_reminder_t1",
+      "poison_tooth_t1",
+      "slow_t1"
+    ],
+    "treeIds": [
+      "Goo_Undead",
+      "Goo_Normal",
+      "Goo_DeBuffs"
+    ],
+    "familyId": "destroslime",
+    "familyName": "Destroslime"
+  },
+  {
+    "id": "destroslime",
+    "dexId": 58,
+    "dexNumber": 59,
+    "name": "Destroslime",
+    "sprite": "normalSlime3",
+    "sourceFunction": "Goo_stage3",
+    "stage": 3,
+    "types": [
+      "normal"
+    ],
+    "baseStats": {
+      "health": 80,
+      "energy": 95,
+      "attack": 45,
+      "healing": 45,
+      "speed": 45
+    },
+    "maxStats": {
+      "health": 485,
+      "energy": 435,
+      "attack": 140,
+      "healing": 140,
+      "speed": 140
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "tackle_t1"
+    ],
+    "specializationMoves": [
+      "ashen_reminder_t1",
+      "poison_tooth_t1",
+      "slow_t1"
+    ],
+    "treeIds": [
+      "Goo_Undead",
+      "Goo_Normal",
+      "Goo_DeBuffs"
+    ],
+    "familyId": "destroslime",
+    "familyName": "Destroslime"
+  },
+  {
+    "id": "beakif",
+    "dexId": 59,
+    "dexNumber": 60,
+    "name": "Beakif",
+    "sprite": "flyingGriffin1",
+    "sourceFunction": "Griffen_stage1",
+    "stage": 1,
+    "types": [
+      "flying",
+      "electric"
+    ],
+    "baseStats": {
+      "health": 40,
+      "energy": 30,
+      "attack": 45,
+      "healing": 30,
+      "speed": 55
+    },
+    "maxStats": {
+      "health": 245,
+      "energy": 142,
+      "attack": 140,
+      "healing": 95,
+      "speed": 170
+    },
+    "gems": {
+      "total": 1,
+      "locked": 1
+    },
+    "evolvesAt": 34,
+    "startingMoves": [
+      "peck_t1"
+    ],
+    "specializationMoves": [
+      "cutting_wind_t1",
+      "thunderstorm_t1",
+      "agile_inspiration_t1"
+    ],
+    "treeIds": [
+      "Griffen_Flying",
+      "Griffen_Electric",
+      "Griffen_Normal"
+    ],
+    "familyId": "eaglin",
+    "familyName": "Eaglin"
+  },
+  {
+    "id": "eaglin",
+    "dexId": 60,
+    "dexNumber": 61,
+    "name": "Eaglin",
+    "sprite": "flyingGriffin2",
+    "sourceFunction": "Griffen_stage2",
+    "stage": 2,
+    "types": [
+      "flying",
+      "electric"
+    ],
+    "baseStats": {
+      "health": 65,
+      "energy": 40,
+      "attack": 65,
+      "healing": 45,
+      "speed": 75
+    },
+    "maxStats": {
+      "health": 395,
+      "energy": 187,
+      "attack": 200,
+      "healing": 140,
+      "speed": 230
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "peck_t1"
+    ],
+    "specializationMoves": [
+      "cutting_wind_t1",
+      "thunderstorm_t1",
+      "agile_inspiration_t1"
+    ],
+    "treeIds": [
+      "Griffen_Flying",
+      "Griffen_Electric",
+      "Griffen_Normal"
+    ],
+    "familyId": "eaglin",
+    "familyName": "Eaglin"
+  },
+  {
+    "id": "amliflier",
+    "dexId": 61,
+    "dexNumber": 62,
+    "name": "Amliflier",
+    "sprite": "robotHummingbird",
+    "sourceFunction": "HummingBird_stage1",
+    "stage": 1,
+    "types": [
+      "robot",
+      "flying"
+    ],
+    "baseStats": {
+      "health": 45,
+      "energy": 35,
+      "attack": 60,
+      "healing": 30,
+      "speed": 80
+    },
+    "maxStats": {
+      "health": 275,
+      "energy": 165,
+      "attack": 185,
+      "healing": 95,
+      "speed": 245
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "peck_t1"
+    ],
+    "specializationMoves": [
+      "steel_spike_t1",
+      "hurricane_t1",
+      "mirror_skin_t1"
+    ],
+    "treeIds": [
+      "HummingBird_Robot",
+      "HummingBird_Flying",
+      "HummingBird_Normal"
+    ],
+    "familyId": "amliflier",
+    "familyName": "Amliflier"
+  },
+  {
+    "id": "jellyjolt",
+    "dexId": 62,
+    "dexNumber": 63,
+    "name": "Jellyjolt",
+    "sprite": "energyJellyfish1",
+    "sourceFunction": "JellyFish_stage1",
+    "stage": 1,
+    "types": [
+      "water",
+      "electric"
+    ],
+    "baseStats": {
+      "health": 10,
+      "energy": 35,
+      "attack": 65,
+      "healing": 40,
+      "speed": 45
+    },
+    "maxStats": {
+      "health": 65,
+      "energy": 165,
+      "attack": 200,
+      "healing": 125,
+      "speed": 140
+    },
+    "gems": {
+      "total": 1,
+      "locked": 1
+    },
+    "evolvesAt": 33,
+    "startingMoves": [
+      "pound_t1"
+    ],
+    "specializationMoves": [
+      "waterjet_t1",
+      "overload_t1",
+      "reflect_damage_t1"
+    ],
+    "treeIds": [
+      "JellyFish_Water",
+      "JellyFish_Electric",
+      "JellyFish_Normal"
+    ],
+    "familyId": "hydravolt",
+    "familyName": "Hydravolt"
+  },
+  {
+    "id": "hydravolt",
+    "dexId": 63,
+    "dexNumber": 64,
+    "name": "Hydravolt",
+    "sprite": "energyJellyfish2",
+    "sourceFunction": "JellyFish_stage2",
+    "stage": 2,
+    "types": [
+      "water",
+      "electric"
+    ],
+    "baseStats": {
+      "health": 20,
+      "energy": 50,
+      "attack": 85,
+      "healing": 60,
+      "speed": 65
+    },
+    "maxStats": {
+      "health": 125,
+      "energy": 232,
+      "attack": 260,
+      "healing": 185,
+      "speed": 200
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "pound_t1"
+    ],
+    "specializationMoves": [
+      "waterjet_t1",
+      "overload_t1",
+      "reflect_damage_t1"
+    ],
+    "treeIds": [
+      "JellyFish_Water",
+      "JellyFish_Electric",
+      "JellyFish_Normal"
+    ],
+    "familyId": "hydravolt",
+    "familyName": "Hydravolt"
+  },
+  {
+    "id": "shoktail",
+    "dexId": 64,
+    "dexNumber": 65,
+    "name": "Shoktail",
+    "sprite": "energyScorpion1",
+    "sourceFunction": "Scorpion_stage1",
+    "stage": 1,
+    "types": [
+      "electric",
+      "earth"
+    ],
+    "baseStats": {
+      "health": 45,
+      "energy": 40,
+      "attack": 30,
+      "healing": 20,
+      "speed": 42
+    },
+    "maxStats": {
+      "health": 275,
+      "energy": 187,
+      "attack": 95,
+      "healing": 65,
+      "speed": 131
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 33,
+    "startingMoves": [
+      "claw_t1",
+      "spark_t1"
+    ],
+    "specializationMoves": [
+      "overload_t1",
+      "rock_throw_t1",
+      "spike_t1"
+    ],
+    "treeIds": [
+      "Scorpion_Electric",
+      "Scorpion_Ground",
+      "Scorpion_Normal"
+    ],
+    "familyId": "empawrath",
+    "familyName": "Empawrath"
+  },
+  {
+    "id": "emperun",
+    "dexId": 65,
+    "dexNumber": 66,
+    "name": "Emperun",
+    "sprite": "energyScorpion2",
+    "sourceFunction": "Scorpion_stage2",
+    "stage": 2,
+    "types": [
+      "electric",
+      "earth"
+    ],
+    "baseStats": {
+      "health": 60,
+      "energy": 50,
+      "attack": 40,
+      "healing": 30,
+      "speed": 55
+    },
+    "maxStats": {
+      "health": 365,
+      "energy": 232,
+      "attack": 125,
+      "healing": 95,
+      "speed": 170
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 42,
+    "startingMoves": [
+      "claw_t1",
+      "spark_t1"
+    ],
+    "specializationMoves": [
+      "overload_t1",
+      "rock_throw_t1",
+      "spike_t1"
+    ],
+    "treeIds": [
+      "Scorpion_Electric",
+      "Scorpion_Ground",
+      "Scorpion_Normal"
+    ],
+    "familyId": "empawrath",
+    "familyName": "Empawrath"
+  },
+  {
+    "id": "empawrath",
+    "dexId": 66,
+    "dexNumber": 67,
+    "name": "Empawrath",
+    "sprite": "energyScorpion3",
+    "sourceFunction": "Scorpion_stage3",
+    "stage": 3,
+    "types": [
+      "electric",
+      "earth"
+    ],
+    "baseStats": {
+      "health": 75,
+      "energy": 60,
+      "attack": 60,
+      "healing": 40,
+      "speed": 65
+    },
+    "maxStats": {
+      "health": 455,
+      "energy": 277,
+      "attack": 185,
+      "healing": 125,
+      "speed": 200
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "claw_t1",
+      "spark_t1"
+    ],
+    "specializationMoves": [
+      "overload_t1",
+      "rock_throw_t1",
+      "spike_t1"
+    ],
+    "treeIds": [
+      "Scorpion_Electric",
+      "Scorpion_Ground",
+      "Scorpion_Normal"
+    ],
+    "familyId": "empawrath",
+    "familyName": "Empawrath"
+  },
+  {
+    "id": "egcrow",
+    "dexId": 67,
+    "dexNumber": 68,
+    "name": "Egcrow",
+    "sprite": "undeadCrow1",
+    "sourceFunction": "Crow_stage1",
+    "stage": 1,
+    "types": [
+      "demonic",
+      "flying"
+    ],
+    "baseStats": {
+      "health": 35,
+      "energy": 40,
+      "attack": 45,
+      "healing": 25,
+      "speed": 35
+    },
+    "maxStats": {
+      "health": 215,
+      "energy": 187,
+      "attack": 140,
+      "healing": 80,
+      "speed": 110
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 35,
+    "startingMoves": [
+      "peck_t1"
+    ],
+    "specializationMoves": [
+      "demonic_strike_t1",
+      "peck_t2",
+      "tire_t1"
+    ],
+    "treeIds": [
+      "Crow_Demonic",
+      "Crow_Flying",
+      "Crow_Normal"
+    ],
+    "familyId": "krobone",
+    "familyName": "Krobone"
+  },
+  {
+    "id": "skulcrow",
+    "dexId": 68,
+    "dexNumber": 69,
+    "name": "Skulcrow",
+    "sprite": "undeadCrow2",
+    "sourceFunction": "Crow_stage2",
+    "stage": 2,
+    "types": [
+      "demonic",
+      "flying"
+    ],
+    "baseStats": {
+      "health": 40,
+      "energy": 55,
+      "attack": 60,
+      "healing": 35,
+      "speed": 65
+    },
+    "maxStats": {
+      "health": 245,
+      "energy": 255,
+      "attack": 185,
+      "healing": 110,
+      "speed": 200
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 49,
+    "startingMoves": [
+      "peck_t1"
+    ],
+    "specializationMoves": [
+      "demonic_strike_t1",
+      "peck_t2",
+      "tire_t1"
+    ],
+    "treeIds": [
+      "Crow_Demonic",
+      "Crow_Flying",
+      "Crow_Normal"
+    ],
+    "familyId": "krobone",
+    "familyName": "Krobone"
+  },
+  {
+    "id": "krobone",
+    "dexId": 69,
+    "dexNumber": 70,
+    "name": "Krobone",
+    "sprite": "undeadCrow3",
+    "sourceFunction": "Crow_stage3",
+    "stage": 3,
+    "types": [
+      "demonic",
+      "flying"
+    ],
+    "baseStats": {
+      "health": 55,
+      "energy": 70,
+      "attack": 75,
+      "healing": 45,
+      "speed": 70
+    },
+    "maxStats": {
+      "health": 335,
+      "energy": 322,
+      "attack": 230,
+      "healing": 140,
+      "speed": 215
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "peck_t1"
+    ],
+    "specializationMoves": [
+      "demonic_strike_t1",
+      "peck_t2",
+      "tire_t1"
+    ],
+    "treeIds": [
+      "Crow_Demonic",
+      "Crow_Flying",
+      "Crow_Normal"
+    ],
+    "familyId": "krobone",
+    "familyName": "Krobone"
+  },
+  {
+    "id": "leeru",
+    "dexId": 70,
+    "dexNumber": 71,
+    "name": "Leeru",
+    "sprite": "demonicEyeball1",
+    "sourceFunction": "EvilEye_stage1",
+    "stage": 1,
+    "types": [
+      "demonic"
+    ],
+    "baseStats": {
+      "health": 15,
+      "energy": 35,
+      "attack": 45,
+      "healing": 35,
+      "speed": 50
+    },
+    "maxStats": {
+      "health": 95,
+      "energy": 165,
+      "attack": 140,
+      "healing": 110,
+      "speed": 155
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 34,
+    "startingMoves": [
+      "evil_eye_t1"
+    ],
+    "specializationMoves": [
+      "evil_eye_t2",
+      "demonic_strike_t1",
+      "spike_t1"
+    ],
+    "treeIds": [
+      "EvilEye_Debuffs",
+      "EvilEye_Demonic",
+      "EvilEye_Normal"
+    ],
+    "familyId": "leerpo",
+    "familyName": "Leerpo"
+  },
+  {
+    "id": "duleer",
+    "dexId": 71,
+    "dexNumber": 72,
+    "name": "Duleer",
+    "sprite": "demonicEyeball2",
+    "sourceFunction": "EvilEye_stage2",
+    "stage": 2,
+    "types": [
+      "demonic"
+    ],
+    "baseStats": {
+      "health": 25,
+      "energy": 45,
+      "attack": 65,
+      "healing": 50,
+      "speed": 70
+    },
+    "maxStats": {
+      "health": 155,
+      "energy": 210,
+      "attack": 200,
+      "healing": 155,
+      "speed": 215
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 47,
+    "startingMoves": [
+      "evil_eye_t1"
+    ],
+    "specializationMoves": [
+      "evil_eye_t2",
+      "demonic_strike_t1",
+      "spike_t1"
+    ],
+    "treeIds": [
+      "EvilEye_Debuffs",
+      "EvilEye_Demonic",
+      "EvilEye_Normal"
+    ],
+    "familyId": "leerpo",
+    "familyName": "Leerpo"
+  },
+  {
+    "id": "leerpo",
+    "dexId": 72,
+    "dexNumber": 73,
+    "name": "Leerpo",
+    "sprite": "demonicEyeball3",
+    "sourceFunction": "EvilEye_stage3",
+    "stage": 3,
+    "types": [
+      "demonic"
+    ],
+    "baseStats": {
+      "health": 35,
+      "energy": 55,
+      "attack": 70,
+      "healing": 65,
+      "speed": 85
+    },
+    "maxStats": {
+      "health": 215,
+      "energy": 255,
+      "attack": 215,
+      "healing": 200,
+      "speed": 260
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "evil_eye_t1"
+    ],
+    "specializationMoves": [
+      "evil_eye_t2",
+      "demonic_strike_t1",
+      "spike_t1"
+    ],
+    "treeIds": [
+      "EvilEye_Debuffs",
+      "EvilEye_Demonic",
+      "EvilEye_Normal"
+    ],
+    "familyId": "leerpo",
+    "familyName": "Leerpo"
+  },
+  {
+    "id": "banesha",
+    "dexId": 73,
+    "dexNumber": 74,
+    "name": "Banesha",
+    "sprite": "fireMage",
+    "sourceFunction": "FireGhost_stage1",
+    "stage": 1,
+    "types": [
+      "undead",
+      "fire"
+    ],
+    "baseStats": {
+      "health": 45,
+      "energy": 65,
+      "attack": 60,
+      "healing": 40,
+      "speed": 55
+    },
+    "maxStats": {
+      "health": 275,
+      "energy": 300,
+      "attack": 185,
+      "healing": 125,
+      "speed": 170
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "burn_t1"
+    ],
+    "specializationMoves": [
+      "lich_burn_t1",
+      "flare_up_t1",
+      "tire_t1"
+    ],
+    "treeIds": [
+      "FireGhost_Undead",
+      "FireGhost_Fire",
+      "FireGhost_Normal"
+    ],
+    "familyId": "banesha",
+    "familyName": "Banesha"
+  },
+  {
+    "id": "pumcin",
+    "dexId": 74,
+    "dexNumber": 75,
+    "name": "Pumcin",
+    "sprite": "undeadScarecrow1",
+    "sourceFunction": "ScareCrow_stage1",
+    "stage": 1,
+    "types": [
+      "demonic",
+      "undead"
+    ],
+    "baseStats": {
+      "health": 35,
+      "energy": 45,
+      "attack": 35,
+      "healing": 30,
+      "speed": 35
+    },
+    "maxStats": {
+      "health": 215,
+      "energy": 210,
+      "attack": 110,
+      "healing": 95,
+      "speed": 110
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 35,
+    "startingMoves": [
+      "claw_t1"
+    ],
+    "specializationMoves": [
+      "blood_press_t1",
+      "infes_t1",
+      "slow_t1"
+    ],
+    "treeIds": [
+      "ScareCrow_Demonic",
+      "ScareCrow_Undead",
+      "ScareCrow_Debuff"
+    ],
+    "familyId": "scaredoom",
+    "familyName": "Scaredoom"
+  },
+  {
+    "id": "scaredrow",
+    "dexId": 75,
+    "dexNumber": 76,
+    "name": "Scaredrow",
+    "sprite": "undeadScarecrow2",
+    "sourceFunction": "ScareCrow_stage2",
+    "stage": 2,
+    "types": [
+      "demonic",
+      "undead"
+    ],
+    "baseStats": {
+      "health": 50,
+      "energy": 65,
+      "attack": 45,
+      "healing": 40,
+      "speed": 45
+    },
+    "maxStats": {
+      "health": 305,
+      "energy": 300,
+      "attack": 140,
+      "healing": 125,
+      "speed": 140
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 47,
+    "startingMoves": [
+      "claw_t1"
+    ],
+    "specializationMoves": [
+      "blood_press_t1",
+      "infes_t1",
+      "slow_t1"
+    ],
+    "treeIds": [
+      "ScareCrow_Demonic",
+      "ScareCrow_Undead",
+      "ScareCrow_Debuff"
+    ],
+    "familyId": "scaredoom",
+    "familyName": "Scaredoom"
+  },
+  {
+    "id": "scaredoom",
+    "dexId": 76,
+    "dexNumber": 77,
+    "name": "Scaredoom",
+    "sprite": "undeadScarecrow3",
+    "sourceFunction": "ScareCrow_stage3",
+    "stage": 3,
+    "types": [
+      "demonic",
+      "undead"
+    ],
+    "baseStats": {
+      "health": 65,
+      "energy": 75,
+      "attack": 70,
+      "healing": 50,
+      "speed": 55
+    },
+    "maxStats": {
+      "health": 395,
+      "energy": 345,
+      "attack": 215,
+      "healing": 155,
+      "speed": 170
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "claw_t1"
+    ],
+    "specializationMoves": [
+      "blood_press_t1",
+      "infes_t1",
+      "slow_t1"
+    ],
+    "treeIds": [
+      "ScareCrow_Demonic",
+      "ScareCrow_Undead",
+      "ScareCrow_Debuff"
+    ],
+    "familyId": "scaredoom",
+    "familyName": "Scaredoom"
+  },
+  {
+    "id": "biomez",
+    "dexId": 77,
+    "dexNumber": 78,
+    "name": "Biomez",
+    "sprite": "undeadGolem",
+    "sourceFunction": "SlenderMan_stage1",
+    "stage": 1,
+    "types": [
+      "undead"
+    ],
+    "baseStats": {
+      "health": 75,
+      "energy": 70,
+      "attack": 45,
+      "healing": 45,
+      "speed": 30
+    },
+    "maxStats": {
+      "health": 455,
+      "energy": 322,
+      "attack": 140,
+      "healing": 140,
+      "speed": 95
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "haunt_t1"
+    ],
+    "specializationMoves": [
+      "infes_t1",
+      "flesh_sacrifice_t1",
+      "crush_t1"
+    ],
+    "treeIds": [
+      "SlenderMan_Debuff",
+      "SlenderMan_Undead",
+      "SlenderMan_Normal"
+    ],
+    "familyId": "biomez",
+    "familyName": "Biomez"
+  },
+  {
+    "id": "destrabell",
+    "dexId": 78,
+    "dexNumber": 79,
+    "name": "Destrabell",
+    "sprite": "holyBlueBell",
+    "sourceFunction": "BlueBell_stage1",
+    "stage": 1,
+    "types": [
+      "holy",
+      "fire"
+    ],
+    "baseStats": {
+      "health": 45,
+      "energy": 45,
+      "attack": 65,
+      "healing": 45,
+      "speed": 45
+    },
+    "maxStats": {
+      "health": 275,
+      "energy": 210,
+      "attack": 200,
+      "healing": 140,
+      "speed": 140
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "burn_t1"
+    ],
+    "specializationMoves": [
+      "touch_fire_t1",
+      "hope_t1",
+      "invigorate_t1"
+    ],
+    "treeIds": [
+      "HolyBell_Fire",
+      "HolyBell_Holy",
+      "HolyBell_Normal"
+    ],
+    "familyId": "destrabell",
+    "familyName": "Destrabell"
+  },
+  {
+    "id": "healabell",
+    "dexId": 79,
+    "dexNumber": 80,
+    "name": "Healabell",
+    "sprite": "holyPinkBell",
+    "sourceFunction": "PinkBell_stage1",
+    "stage": 1,
+    "types": [
+      "holy",
+      "fire"
+    ],
+    "baseStats": {
+      "health": 45,
+      "energy": 45,
+      "attack": 45,
+      "healing": 65,
+      "speed": 45
+    },
+    "maxStats": {
+      "health": 275,
+      "energy": 210,
+      "attack": 140,
+      "healing": 200,
+      "speed": 140
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "burn_t1"
+    ],
+    "specializationMoves": [
+      "touch_fire_t1",
+      "hope_t1",
+      "invigorate_t1"
+    ],
+    "treeIds": [
+      "HolyBell_Fire",
+      "HolyBell_Holy",
+      "HolyBell_Normal"
+    ],
+    "familyId": "healabell",
+    "familyName": "Healabell"
+  },
+  {
+    "id": "frostag",
+    "dexId": 80,
+    "dexNumber": 81,
+    "name": "Frostag",
+    "sprite": "iceStag",
+    "sourceFunction": "IceDeer_stage1",
+    "stage": 1,
+    "types": [
+      "ice"
+    ],
+    "baseStats": {
+      "health": 25,
+      "energy": 55,
+      "attack": 70,
+      "healing": 65,
+      "speed": 70
+    },
+    "maxStats": {
+      "health": 155,
+      "energy": 255,
+      "attack": 215,
+      "healing": 200,
+      "speed": 215
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "icy_blast_t1"
+    ],
+    "specializationMoves": [
+      "sleet_t1",
+      "ice_enclosure_t1",
+      "reflect_damage_t1"
+    ],
+    "treeIds": [
+      "IceDeer_Ice",
+      "IceDeer_Healing",
+      "IceDeer_Reflect"
+    ],
+    "familyId": "frostag",
+    "familyName": "Frostag"
+  },
+  {
+    "id": "saintifi",
+    "dexId": 81,
+    "dexNumber": 82,
+    "name": "Saintifi",
+    "sprite": "undeadWarrior",
+    "sourceFunction": "HolyStrongGuy_stage1",
+    "stage": 1,
+    "types": [
+      "holy"
+    ],
+    "baseStats": {
+      "health": 60,
+      "energy": 50,
+      "attack": 75,
+      "healing": 75,
+      "speed": 60
+    },
+    "maxStats": {
+      "health": 365,
+      "energy": 232,
+      "attack": 230,
+      "healing": 230,
+      "speed": 185
+    },
+    "gems": {
+      "total": 2,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "pound_t2"
+    ],
+    "specializationMoves": [
+      "crusade_t1",
+      "demonic_bargain_t1",
+      "deadly_inspiration_t1"
+    ],
+    "treeIds": [
+      "HolyStrongMan_Damage",
+      "HolyStrongMan_Darkness",
+      "HolyStrongMan_Inspire"
+    ],
+    "familyId": "saintifi",
+    "familyName": "Saintifi"
+  },
+  {
+    "id": "kel-ba",
+    "dexId": 82,
+    "dexNumber": 83,
+    "name": "Kel'ba",
+    "sprite": "undeadLich1",
+    "sourceFunction": "LichBoss_stage1",
+    "stage": 1,
+    "types": [
+      "undead"
+    ],
+    "baseStats": {
+      "health": 25,
+      "energy": 35,
+      "attack": 60,
+      "healing": 30,
+      "speed": 35
+    },
+    "maxStats": {
+      "health": 155,
+      "energy": 165,
+      "attack": 185,
+      "healing": 95,
+      "speed": 110
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 25,
+    "startingMoves": [
+      "haunt_t1"
+    ],
+    "specializationMoves": [
+      "lifeless_touch_t1",
+      "lich_burn_t1",
+      "mirror_coating_t1"
+    ],
+    "treeIds": [
+      "LichBoss_Debuffs",
+      "LichBoss_Undead",
+      "LichBoss_Reflect"
+    ],
+    "familyId": "kel-tuzar",
+    "familyName": "Kel'Tuzar"
+  },
+  {
+    "id": "kel-ten",
+    "dexId": 83,
+    "dexNumber": 84,
+    "name": "Kel'ten",
+    "sprite": "undeadLich2",
+    "sourceFunction": "LichBoss_stage2",
+    "stage": 2,
+    "types": [
+      "undead"
+    ],
+    "baseStats": {
+      "health": 35,
+      "energy": 40,
+      "attack": 75,
+      "healing": 40,
+      "speed": 40
+    },
+    "maxStats": {
+      "health": 215,
+      "energy": 187,
+      "attack": 230,
+      "healing": 125,
+      "speed": 125
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 50,
+    "startingMoves": [
+      "haunt_t1"
+    ],
+    "specializationMoves": [
+      "lifeless_touch_t1",
+      "lich_burn_t1",
+      "mirror_coating_t1"
+    ],
+    "treeIds": [
+      "LichBoss_Debuffs",
+      "LichBoss_Undead",
+      "LichBoss_Reflect"
+    ],
+    "familyId": "kel-tuzar",
+    "familyName": "Kel'Tuzar"
+  },
+  {
+    "id": "kel-tuzar",
+    "dexId": 84,
+    "dexNumber": 85,
+    "name": "Kel'Tuzar",
+    "sprite": "undeadLich3",
+    "sourceFunction": "LichBoss_stage3",
+    "stage": 3,
+    "types": [
+      "undead"
+    ],
+    "baseStats": {
+      "health": 45,
+      "energy": 50,
+      "attack": 95,
+      "healing": 50,
+      "speed": 45
+    },
+    "maxStats": {
+      "health": 275,
+      "energy": 232,
+      "attack": 290,
+      "healing": 155,
+      "speed": 140
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "haunt_t1"
+    ],
+    "specializationMoves": [
+      "lifeless_touch_t1",
+      "lich_burn_t1",
+      "mirror_coating_t1"
+    ],
+    "treeIds": [
+      "LichBoss_Debuffs",
+      "LichBoss_Undead",
+      "LichBoss_Reflect"
+    ],
+    "familyId": "kel-tuzar",
+    "familyName": "Kel'Tuzar"
+  },
+  {
+    "id": "rexabee",
+    "dexId": 85,
+    "dexNumber": 86,
+    "name": "Rexabee",
+    "sprite": "dinoRex1",
+    "sourceFunction": "TRex_stage1",
+    "stage": 1,
+    "types": [
+      "dino"
+    ],
+    "baseStats": {
+      "health": 35,
+      "energy": 25,
+      "attack": 38,
+      "healing": 5,
+      "speed": 20
+    },
+    "maxStats": {
+      "health": 215,
+      "energy": 120,
+      "attack": 119,
+      "healing": 20,
+      "speed": 65
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 25,
+    "startingMoves": [
+      "wild_tackle_t1",
+      "prehistoric_bite_t1"
+    ],
+    "specializationMoves": [
+      "inner_force_t1",
+      "deadly_inspiration_t1",
+      "hulk_inspiration_t1"
+    ],
+    "treeIds": [
+      "TRex_Dino",
+      "TRex_Buffs",
+      "TRex_Debuffs"
+    ],
+    "familyId": "rexathor",
+    "familyName": "Rexathor"
+  },
+  {
+    "id": "tenasauras",
+    "dexId": 86,
+    "dexNumber": 87,
+    "name": "Tenasauras",
+    "sprite": "dinoRex2",
+    "sourceFunction": "TRex_stage2",
+    "stage": 2,
+    "types": [
+      "dino"
+    ],
+    "baseStats": {
+      "health": 60,
+      "energy": 30,
+      "attack": 65,
+      "healing": 10,
+      "speed": 35
+    },
+    "maxStats": {
+      "health": 365,
+      "energy": 142,
+      "attack": 200,
+      "healing": 35,
+      "speed": 110
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 42,
+    "startingMoves": [
+      "wild_tackle_t1",
+      "prehistoric_bite_t1"
+    ],
+    "specializationMoves": [
+      "inner_force_t1",
+      "deadly_inspiration_t1",
+      "hulk_inspiration_t1"
+    ],
+    "treeIds": [
+      "TRex_Dino",
+      "TRex_Buffs",
+      "TRex_Debuffs"
+    ],
+    "familyId": "rexathor",
+    "familyName": "Rexathor"
+  },
+  {
+    "id": "rexathor",
+    "dexId": 87,
+    "dexNumber": 88,
+    "name": "Rexathor",
+    "sprite": "dinoRex3",
+    "sourceFunction": "TRex_stage3",
+    "stage": 3,
+    "types": [
+      "dino"
+    ],
+    "baseStats": {
+      "health": 80,
+      "energy": 35,
+      "attack": 85,
+      "healing": 15,
+      "speed": 45
+    },
+    "maxStats": {
+      "health": 485,
+      "energy": 165,
+      "attack": 260,
+      "healing": 50,
+      "speed": 140
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "wild_tackle_t1",
+      "prehistoric_bite_t1"
+    ],
+    "specializationMoves": [
+      "inner_force_t1",
+      "deadly_inspiration_t1",
+      "hulk_inspiration_t1"
+    ],
+    "treeIds": [
+      "TRex_Dino",
+      "TRex_Buffs",
+      "TRex_Debuffs"
+    ],
+    "familyId": "rexathor",
+    "familyName": "Rexathor"
+  },
+  {
+    "id": "toregg",
+    "dexId": 88,
+    "dexNumber": 89,
+    "name": "Toregg",
+    "sprite": "fireRaptor1",
+    "sourceFunction": "FireDino_stage1",
+    "stage": 1,
+    "types": [
+      "dino",
+      "fire"
+    ],
+    "baseStats": {
+      "health": 20,
+      "energy": 25,
+      "attack": 38,
+      "healing": 5,
+      "speed": 40
+    },
+    "maxStats": {
+      "health": 125,
+      "energy": 120,
+      "attack": 119,
+      "healing": 20,
+      "speed": 125
+    },
+    "gems": {
+      "total": 1,
+      "locked": 2
+    },
+    "evolvesAt": 27,
+    "startingMoves": [
+      "claw_t2",
+      "prehistoric_bite_t1"
+    ],
+    "specializationMoves": [
+      "reckless_grasp_t1",
+      "fire_blast_t1",
+      "energize_t1"
+    ],
+    "treeIds": [
+      "FireRaptor_Dino",
+      "FireRaptor_Fire",
+      "FireRaptor_Normal"
+    ],
+    "familyId": "flamator",
+    "familyName": "Flamator"
+  },
+  {
+    "id": "smouldor",
+    "dexId": 89,
+    "dexNumber": 90,
+    "name": "Smouldor",
+    "sprite": "fireRaptor2",
+    "sourceFunction": "FireDino_stage2",
+    "stage": 2,
+    "types": [
+      "dino",
+      "fire"
+    ],
+    "baseStats": {
+      "health": 35,
+      "energy": 30,
+      "attack": 65,
+      "healing": 10,
+      "speed": 60
+    },
+    "maxStats": {
+      "health": 215,
+      "energy": 142,
+      "attack": 200,
+      "healing": 35,
+      "speed": 185
+    },
+    "gems": {
+      "total": 2,
+      "locked": 1
+    },
+    "evolvesAt": 45,
+    "startingMoves": [
+      "claw_t2",
+      "prehistoric_bite_t1"
+    ],
+    "specializationMoves": [
+      "reckless_grasp_t1",
+      "fire_blast_t1",
+      "energize_t1"
+    ],
+    "treeIds": [
+      "FireRaptor_Dino",
+      "FireRaptor_Fire",
+      "FireRaptor_Normal"
+    ],
+    "familyId": "flamator",
+    "familyName": "Flamator"
+  },
+  {
+    "id": "flamator",
+    "dexId": 90,
+    "dexNumber": 91,
+    "name": "Flamator",
+    "sprite": "fireRaptor3",
+    "sourceFunction": "FireDino_stage3",
+    "stage": 3,
+    "types": [
+      "dino",
+      "fire"
+    ],
+    "baseStats": {
+      "health": 45,
+      "energy": 35,
+      "attack": 85,
+      "healing": 15,
+      "speed": 80
+    },
+    "maxStats": {
+      "health": 275,
+      "energy": 165,
+      "attack": 260,
+      "healing": 50,
+      "speed": 245
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "claw_t2",
+      "prehistoric_bite_t1"
+    ],
+    "specializationMoves": [
+      "reckless_grasp_t1",
+      "fire_blast_t1",
+      "energize_t1"
+    ],
+    "treeIds": [
+      "FireRaptor_Dino",
+      "FireRaptor_Fire",
+      "FireRaptor_Normal"
+    ],
+    "familyId": "flamator",
+    "familyName": "Flamator"
+  },
+  {
+    "id": "holymantis",
+    "dexId": 91,
+    "dexNumber": 92,
+    "name": "Holymantis",
+    "sprite": "holyMantis",
+    "sourceFunction": "HolyMantis_stage1",
+    "stage": 1,
+    "types": [
+      "plant",
+      "holy"
+    ],
+    "baseStats": {
+      "health": 30,
+      "energy": 50,
+      "attack": 25,
+      "healing": 87,
+      "speed": 60
+    },
+    "maxStats": {
+      "health": 185,
+      "energy": 232,
+      "attack": 80,
+      "healing": 266,
+      "speed": 185
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "claw_t1",
+      "nourish_t1"
+    ],
+    "specializationMoves": [
+      "serenity_t1",
+      "holy_light_t1",
+      "mending_inspiration_t1"
+    ],
+    "treeIds": [
+      "HolyMantis_Grass",
+      "HolyMantis_Holy",
+      "HolyMantis_Normal"
+    ],
+    "familyId": "holymantis",
+    "familyName": "Holymantis"
+  },
+  {
+    "id": "titoro",
+    "dexId": 92,
+    "dexNumber": 93,
+    "name": "Titoro",
+    "sprite": "robotBull",
+    "sourceFunction": "RoboBull_stage1",
+    "stage": 1,
+    "types": [
+      "robot",
+      "fire"
+    ],
+    "baseStats": {
+      "health": 50,
+      "energy": 35,
+      "attack": 80,
+      "healing": 20,
+      "speed": 65
+    },
+    "maxStats": {
+      "health": 305,
+      "energy": 165,
+      "attack": 245,
+      "healing": 65,
+      "speed": 200
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "reckless_dash_t1"
+    ],
+    "specializationMoves": [
+      "download_t1",
+      "fire_shot_t1",
+      "mirror_coating_t1"
+    ],
+    "treeIds": [
+      "RoboBull_Robot",
+      "RoboBull_Fire",
+      "RoboBull_Normal"
+    ],
+    "familyId": "titoro",
+    "familyName": "Titoro"
+  },
+  {
+    "id": "tortastone",
+    "dexId": 93,
+    "dexNumber": 94,
+    "name": "Tortastone",
+    "sprite": "earthTortoiseWhite",
+    "sourceFunction": "Tortoise_stage1",
+    "stage": 1,
+    "types": [
+      "earth"
+    ],
+    "baseStats": {
+      "health": 100,
+      "energy": 25,
+      "attack": 15,
+      "healing": 20,
+      "speed": 5
+    },
+    "maxStats": {
+      "health": 605,
+      "energy": 120,
+      "attack": 50,
+      "healing": 65,
+      "speed": 20
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "pound_t1"
+    ],
+    "specializationMoves": [
+      "platinum_t1",
+      "perseverance_t1",
+      "hulk_inspiration_t1"
+    ],
+    "treeIds": [
+      "Tortoise_Armor",
+      "Tortoise_Health",
+      "Tortoise_Buffs"
+    ],
+    "familyId": "tortastone",
+    "familyName": "Tortastone"
+  },
+  {
+    "id": "domisteam",
+    "dexId": 94,
+    "dexNumber": 95,
+    "name": "Domisteam",
+    "sprite": "robotDeathCall",
+    "sourceFunction": "DeathCall2Robot_stage1",
+    "stage": 1,
+    "types": [
+      "robot"
+    ],
+    "baseStats": {
+      "health": 50,
+      "energy": 35,
+      "attack": 80,
+      "healing": 35,
+      "speed": 75
+    },
+    "maxStats": {
+      "health": 305,
+      "energy": 165,
+      "attack": 245,
+      "healing": 110,
+      "speed": 230
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "pound_t2",
+      "death_call_t1"
+    ],
+    "specializationMoves": [
+      "death_call_t2",
+      "tire_t1",
+      "crush_t2"
+    ],
+    "treeIds": [
+      "DC2Guy_DeathCall",
+      "DC2Guy_Debuffs",
+      "DC2Guy_Normal"
+    ],
+    "familyId": "domisteam",
+    "familyName": "Domisteam"
+  },
+  {
+    "id": "cerberus",
+    "dexId": 95,
+    "dexNumber": 96,
+    "name": "Cerberus",
+    "sprite": "demonicBatDog",
+    "sourceFunction": "BatDemon_stage1",
+    "stage": 1,
+    "types": [
+      "demonic",
+      "fire"
+    ],
+    "baseStats": {
+      "health": 65,
+      "energy": 45,
+      "attack": 90,
+      "healing": 35,
+      "speed": 75
+    },
+    "maxStats": {
+      "health": 395,
+      "energy": 210,
+      "attack": 275,
+      "healing": 110,
+      "speed": 230
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "sear_t2"
+    ],
+    "specializationMoves": [
+      "fire_blast_t1",
+      "demonic_force_t1",
+      "deadly_inspiration_t1"
+    ],
+    "treeIds": [
+      "BatDemon_Fire",
+      "BatDemon_Demonic",
+      "BatDemon_Normal"
+    ],
+    "familyId": "cerberus",
+    "familyName": "Cerberus"
+  },
+  {
+    "id": "eeliforce",
+    "dexId": 96,
+    "dexNumber": 97,
+    "name": "Eeliforce",
+    "sprite": "undeadEel",
+    "sourceFunction": "UndeadEel_stage1",
+    "stage": 1,
+    "types": [
+      "undead",
+      "water"
+    ],
+    "baseStats": {
+      "health": 85,
+      "energy": 75,
+      "attack": 85,
+      "healing": 45,
+      "speed": 35
+    },
+    "maxStats": {
+      "health": 515,
+      "energy": 345,
+      "attack": 260,
+      "healing": 140,
+      "speed": 110
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "pound_t3"
+    ],
+    "specializationMoves": [
+      "water_slam_t1",
+      "rancid_bite_t1",
+      "energizing_inspiration_t1"
+    ],
+    "treeIds": [
+      "UndeadEel_Water",
+      "UndeadEel_Undead",
+      "UndeadEel_Inspire"
+    ],
+    "familyId": "eeliforce",
+    "familyName": "Eeliforce"
+  },
+  {
+    "id": "megalatron",
+    "dexId": 97,
+    "dexNumber": 98,
+    "name": "Megalatron",
+    "sprite": "robotShark",
+    "sourceFunction": "RoboShark_stage1",
+    "stage": 1,
+    "types": [
+      "water",
+      "robot"
+    ],
+    "baseStats": {
+      "health": 80,
+      "energy": 55,
+      "attack": 70,
+      "healing": 50,
+      "speed": 45
+    },
+    "maxStats": {
+      "health": 485,
+      "energy": 255,
+      "attack": 215,
+      "healing": 155,
+      "speed": 140
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "poison_tooth_t2"
+    ],
+    "specializationMoves": [
+      "fresh_stream_t1",
+      "solder_t1",
+      "twin_missile_t1"
+    ],
+    "treeIds": [
+      "RoboShark_Water",
+      "RoboShark_Gaurd",
+      "RoboShark_Robot"
+    ],
+    "familyId": "megalatron",
+    "familyName": "Megalatron"
+  },
+  {
+    "id": "mayataz",
+    "dexId": 98,
+    "dexNumber": 99,
+    "name": "Mayataz",
+    "sprite": "featheredSerpent",
+    "sourceFunction": "FlyingGrassSuperMinion_stage1",
+    "stage": 1,
+    "types": [
+      "flying",
+      "plant"
+    ],
+    "baseStats": {
+      "health": 70,
+      "energy": 60,
+      "attack": 75,
+      "healing": 65,
+      "speed": 75
+    },
+    "maxStats": {
+      "health": 425,
+      "energy": 277,
+      "attack": 230,
+      "healing": 200,
+      "speed": 230
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "tackle_t3"
+    ],
+    "specializationMoves": [
+      "spore_blast_t1",
+      "hurricane_t1",
+      "reckless_dash_t3"
+    ],
+    "treeIds": [
+      "FlyingGrassSuperMinion_Grass",
+      "FlyingGrassSuperMinion_Flying",
+      "FlyingGrassSuperMinion_Normal"
+    ],
+    "familyId": "mayataz",
+    "familyName": "Mayataz"
+  },
+  {
+    "id": "dracolt",
+    "dexId": 99,
+    "dexNumber": 100,
+    "name": "Dracolt",
+    "sprite": "waterKirin",
+    "sourceFunction": "WaterHorse_stage1",
+    "stage": 1,
+    "types": [
+      "water",
+      "electric"
+    ],
+    "baseStats": {
+      "health": 60,
+      "energy": 50,
+      "attack": 75,
+      "healing": 60,
+      "speed": 85
+    },
+    "maxStats": {
+      "health": 365,
+      "energy": 232,
+      "attack": 230,
+      "healing": 185,
+      "speed": 260
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "spike_t2"
+    ],
+    "specializationMoves": [
+      "waterjet_t1",
+      "overload_t1",
+      "reflect_damage_t2"
+    ],
+    "treeIds": [
+      "WaterHorse_Water",
+      "WaterHorse_Electric",
+      "WaterHorse_Normal"
+    ],
+    "familyId": "dracolt",
+    "familyName": "Dracolt"
+  },
+  {
+    "id": "sobek",
+    "dexId": 100,
+    "dexNumber": 101,
+    "name": "Sobek",
+    "sprite": "titan1",
+    "sourceFunction": "Titan1_stage1",
+    "stage": 1,
+    "types": [
+      "titan"
+    ],
+    "baseStats": {
+      "health": 65,
+      "energy": 75,
+      "attack": 100,
+      "healing": 50,
+      "speed": 60
+    },
+    "maxStats": {
+      "health": 395,
+      "energy": 345,
+      "attack": 305,
+      "healing": 155,
+      "speed": 185
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "titan_slash_t1"
+    ],
+    "specializationMoves": [
+      "titan_slam_t1",
+      "waterjet_t1",
+      "destabilize_t2"
+    ],
+    "treeIds": [
+      "Titan1_Titan",
+      "Titan1_Water",
+      "Titan1_Earth"
+    ],
+    "familyId": "sobek",
+    "familyName": "Sobek"
+  },
+  {
+    "id": "seiryu",
+    "dexId": 101,
+    "dexNumber": 102,
+    "name": "Seiryu",
+    "sprite": "titan2",
+    "sourceFunction": "Titan2_stage1",
+    "stage": 1,
+    "types": [
+      "titan"
+    ],
+    "baseStats": {
+      "health": 85,
+      "energy": 70,
+      "attack": 85,
+      "healing": 80,
+      "speed": 75
+    },
+    "maxStats": {
+      "health": 515,
+      "energy": 322,
+      "attack": 260,
+      "healing": 245,
+      "speed": 230
+    },
+    "gems": {
+      "total": 3,
+      "locked": 0
+    },
+    "evolvesAt": null,
+    "startingMoves": [
+      "titan_slash_t1"
+    ],
+    "specializationMoves": [
+      "dominate_t1",
+      "taunt_t2",
+      "titan_light_t1"
+    ],
+    "treeIds": [
+      "Titan2_Titan",
+      "Titan2_Guard",
+      "Titan2_Healer"
+    ],
+    "familyId": "seiryu",
+    "familyName": "Seiryu"
+  }
+]
