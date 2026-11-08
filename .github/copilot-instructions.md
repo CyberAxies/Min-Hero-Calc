@@ -68,6 +68,10 @@ npm.cmd run android:apk      # -> release/MinHeroCalc-<version>.apk
   read `android/key.properties`, which is git-ignored. Never commit a keystore —
   Android only accepts updates signed with the same key. macOS signing is not
   configured, so only Windows and Android artifacts are produced.
+- Never delete and re-push a tag that already has a release: GitHub detaches the
+  release and turns it into a draft (it keeps `tag_name` but disappears from the
+  Releases list). Move a bad tag by editing the release
+  (`gh release edit <tag> --draft=false`) or by bumping the version instead.
 - Share links come from `shareBaseUrl()` (`src/core/share.ts`), which honours
   `VITE_PUBLIC_ORIGIN` at build time because the packs serve the app from a local
   origin (`app://minhero/`, `https://localhost/`). Keep new link building behind
