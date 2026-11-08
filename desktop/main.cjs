@@ -6,7 +6,7 @@
 // (opaque origin + CORS). Everything is therefore served from a custom,
 // privileged `app://` scheme, which also gives localStorage a stable origin that
 // survives app updates.
-const { app, BrowserWindow, Menu, net, protocol, shell } = require('electron');
+const { app, BrowserWindow, Menu, net, protocol, session, shell } = require('electron');
 const fs = require('node:fs');
 const path = require('node:path');
 const { pathToFileURL } = require('node:url');
@@ -14,6 +14,11 @@ const { pathToFileURL } = require('node:url');
 const SCHEME = 'app';
 const ORIGIN = `${SCHEME}://minhero`;
 const START_URL = `${ORIGIN}/index.html`;
+
+// Name the profile after the product, not the npm package, so team/build data
+// lives in %APPDATA%\Min Hero Calc. Must happen before Electron resolves paths.
+app.setName('Min Hero Calc');
+app.setPath('userData', path.join(app.getPath('appData'), 'Min Hero Calc'));
 
 const WEB_ROOT = app.isPackaged
   ? path.join(process.resourcesPath, 'app-dist')
@@ -66,6 +71,8 @@ function createWindow() {
   });
 
   win.once('ready-to-show', () => win.show());
+  // Never leave the user with an invisible window if the bundle fails to load.
+  win.webContents.on('did-fail-load', () => win.show());
 
   // The app has no external links, but never let a stray one navigate the shell.
   win.webContents.setWindowOpenHandler(({ url }) => {
@@ -194,6 +201,11 @@ if (!app.requestSingleInstanceLock()) {
   app.whenReady().then(() => {
     app.setAppUserModelId('com.cyberaxies.minherocalc');
     registerProtocol();
+
+    // The app is a static bundle: it never needs camera, notifications, etc.
+    session.defaultSession.setPermissionRequestHandler((_contents, _permission, callback) =>
+      callback(false),
+    );
 
     if (process.argv.includes('--smoke')) {
       void runSmoke();
